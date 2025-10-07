@@ -1,0 +1,31 @@
+; Registro Hospitalar de Cancer
+; Primeiro Tratamento Recebido no Hospital
+
+26 4
+      1  1 Nenhum                                           1   ,
+      2  2 Cirurgia Cir                                     2   ,
+      3  3 Radioterapia Rxt                                 3   ,
+      4  4 Quimioterapia Qt                                 4   ,
+      5  5 Hormonioterapia Ht                               5   ,
+      6  6 Transplante de Medula Ossea TMO                  6   ,
+      7  22 Cir + Cir                                       22  ,
+      8  23 Cir + RXT                                       23  ,32  ,
+      9  24 Cir + QT                                        24  ,42  ,
+     10  25 Cir + Ht                                        25  ,52  ,
+     11  33 RXT + RXT                                       33  ,
+     12  34 RXT + QT                                        34  ,43  ,
+     13  44 QT + QT                                         44  ,
+     14  46 QT + TMO                                        46  ,64  ,
+     15  55 HT + HT                                         55  ,
+     16  222 CIR + CIR + CIR                                222 ,
+     17  234 Cir + RXT + QT                                 234 ,243 ,324 ,342 ,432 ,423 ,
+     18  245 Cir + QT + HT                                  245 ,254 ,425 ,452 ,542 ,524 ,
+     19  253 Cir + HT + RXT                                 253 ,235 ,523 ,532 ,352 ,325 ,
+     20  333 RXT + RXT + RXT                                333 ,
+     21  334 RXT + RXT + QT                                 334 ,
+     22  444 QT + QT + QT                                   444 ,
+     23  555 HT + HT + HT                                   555 ,
+     24  2453 Cir + QT + HT + RXT                           2345, 2354, 2435,2453,2534,2543,3245,3254,3425,3452,3524,3542,4235,4253,4325,4352,4523,4532,5234,5243,5324,5342,5423,5432,
+     25  8 Outros Procedimentos Terapeuticos                0   ,-9  ,8   ,
+     26  9 Sem Informacao                                   9   , 
+

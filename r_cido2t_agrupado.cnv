@@ -1,0 +1,23 @@
+; Registro Hospitalr de Cancer
+; topografias CIDO 2 3 digitos Agrupada
+;
+19   3
+      1  C00-C06 Labio, cavidade oral                       C00-C06,
+      2  C07-C14,C32 Orofar, Nasofar, Rinofar e Laringe     C07-C14,C32,
+      3  C15-C26 Orgao digestivos                           C15-C26
+      4  C30-C31,C33-C39 Ap.resp,org intrat exceto laringe  C30-C31,C33-C39,
+      5  C40-C41 Ossos, articulacoes, cartilagens artic     C40-C41
+      6  C42 Sistema hematopoetico                          C42
+      7  C44 Pele                                           C44
+      8  C47 Nervos perifericos e SNA                       C47
+      9  C48 Retroperitonio e Peritonio                     C48
+     10  C49 Tec conjunto,subcutaneo,outros tec moles       C49
+     11  C50 Mama                                           C50
+     12  C51-C58 Orgaos genitais femininos                  C51-C58
+     13  C60-C63 Orgaos genitais masculinos                 C60-C63
+     14  C64-C68 Trato urinario                             C64-C68
+     15  C69-C72 Olho, cerebro e outras partes do SNC       C69-C72
+     16  C73-C75 Tiroide e outras glandulas                 C73-C75
+     17  C76 Out. localizacoes e localizacoes mal definidas C76
+     18  C77 Linfonodos                                     C77
+     19  C80 Localizacao primaria desconhecida              C80

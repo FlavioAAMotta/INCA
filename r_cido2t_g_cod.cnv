@@ -1,0 +1,74 @@
+; Registro Hospitalar de C�ncer
+; topografias CIDO-2 (3 digitos) com c�digo na descri��o
+;
+70 3  L
+    001  C00 Labio                                          C00
+    002  C01 Base Da Lingua                                 C01
+    003  C02 Outras Partes Partes Nao Especif. da Lingua    C02
+    004  C03 Gengiva                                        C03
+    005  C04 Assoalho Da Boca                               C04
+    006  C05 Palato                                         C05
+    007  C06 Outras Partes Partes Nao Especif. da Boca      C06
+    008  C07 Glandula Parotida                              C07
+    009  C08 Outras Glandulas Salivares Maiores             C08
+    010  C09 Amigdala                                       C09
+    011  C10 Orofaringe                                     C10
+    012  C11 Nasofaringe                                    C11
+    013  C12 Seio Periforme                                 C12
+    014  C13 Hipofaringe                                    C13
+    015  C14 Out.Loc. Loc.Mal Def.Labio,Cav.Oral,Faringe    C14
+    016  C15 Esofago                                        C15
+    017  C16 Estomago                                       C16
+    018  C17 Intestino Delgado                              C17
+    019  C18 Colon                                          C18
+    020  C19 Juncao Retossigmoidiana                        C19
+    021  C20 Reto                                           C20
+    022  C21 Anus e Canal Anal                              C21
+    023  C22 Figado e Vias Biliares Intrahepaticas          C22
+    024  C23 Vesicula Biliar                                C23
+    025  C24 Outras Partes Partes Nao Espec.V.Biliares      C24
+    026  C25 Pancreas                                       C25
+    027  C26 Outros Org.Digest Loc.Mal Def.Ap.Digest        C26
+    028  C30 Cavidade Nasal e Ouvido Medio                  C30
+    029  C31 Seios da Face                                  C31
+    030  C32 Laringe                                        C32
+    031  C33 Traqueia                                       C33
+    032  C34 Bronquios e Pulmoes                            C34
+    033  C37 Timo                                           C37
+    034  C38 Coracao, Mediastino e Pleura                   C38
+    035  C39 Outras Loc.Mal Definidas do Ap.Respirat        C39
+    036  C40 Ossos Articulacoes Cartil.Artic.dos Memb       C40
+    037  C41 Neop.Mal.Ossos Cart.Art.Outras Loc.E Loc.Ne    C41
+    038  C42 Sistema Hematopoetico e Reticuloendotelial     C42
+    039  C44 Pele                                           C44
+    040  C47 Nervos Perifericos SNA                         C47
+    041  C48 Retroperitonio e Peritonio                     C48
+    042  C49 Tec.Conjuntivo Subcutaneo Outros Tec.Moles     C49
+    043  C50 Mama                                           C50
+    044  C51 Vulva                                          C51
+    045  C52 Vagina                                         C52
+    046  C53 Colo do Utero                                  C53
+    047  C54 Corpo do Utero                                 C54
+    048  C55 Utero, SOE                                     C55
+    049  C56 Ovario                                         C56
+    050  C57 Outros Org.Genit.Femininos e Nao Especif       C57
+    051  C58 Placenta                                       C58
+    052  C60 Penis                                          C60
+    053  C61 Prostata                                       C61
+    054  C62 Testiculo                                      C62
+    055  C63 Outros Orgaos Genitais Masculinos              C63
+    056  C64 Rim                                            C64
+    057  C65 Pelve Renal                                    C65
+    058  C66 Ureter                                         C66
+    059  C67 Bexiga                                         C67
+    060  C68 Outros Org.Urinarios e Nao Especificados       C68
+    061  C69 Olho e Anexos                                  C69
+    062  C70 Meninges                                       C70
+    063  C71 Encefalo                                       C71
+    064  C72 Med.Espin. Nerv.Cran Out.Partes S.N.Central    C72
+    065  C73 Glandula Tiroide                               C73
+    066  C74 Glandula Supra Renal                           C74
+    067  C75 Outras Gland.Endocrinas e Estr.Relacionadas    C75
+    068  C76 Outras Localizacoes Localiz. Mal Definidas     C76
+    069  C77 Linfonodos                                     C77
+    070  C80 Localizacao Primaria Desconhecida              C80

@@ -1,0 +1,13 @@
+; REGISTRO HOSPITALAR DE CANCER
+;PRINCIPAL RAZAO PARA O NAO TRATAMENTO
+
+9 1
+      1  RECUSA DO TRATAMENTO                               1
+      2  TRATAMENTO REALIZADO FORA                          2
+      3  DOENCA AVANCADA,FALTA DE CONDIC CLINICAS OU OUTRAS 3
+      4  ABANDONO DO TRATAMENTO                             4
+      5  COMPLICACOES DO TRATAMENTO                         5 
+      6  OBITO                                              6
+      7  OUTRAS                                             7
+      8  NAO SE APLICA                                      8
+      9  SEM INFORMACAO                                     9

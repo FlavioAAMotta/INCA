@@ -1,0 +1,56 @@
+; Registro Hospitalar de Cancer
+; Clinicas
+
+52   2
+     52  SEM INFORMACAO                                     00-99
+      1  ALERGIA IMUNOLOGIA                                 1
+      2  CIRURGIA CARDIACA                                  2
+      3  CABECA E PESCOCO                                   3
+      4  CIRURGIA GERAL                                     4
+      5  PEDIATRIA CIRURGICA                                5
+      6  CIRURGIA PLASTICA                                  6
+      7  CIRURGIA TORAXICA                                  7
+      8  CIRURGIA VASCULAR                                  8
+      9  CLINICA MEDICA                                     9
+     10  DERMATOLOGIA                                       10
+     11  ENDOCRINOLOGIA                                     11
+     12  GASTROCIRURGIA                                     12
+     13  GASTROENTEROLOGIA                                  13
+     14  GERIATRIA                                          14
+     15  GINECOLOGIA                                        15
+     16  GINECOLOGIA OBSTETRICIA                            16
+     17  HEMATOLOGIA CLINICA                                17
+     18  INFECTOLOGIA                                       18
+     19  NEFROLOGIA                                         19
+     20  NEUROCIRURGIA                                      20
+     21  NEUROLOGIA                                         21
+     22  OFTAMOLOGIA                                        22
+     23  ONCOLOGIA CIRURGICA                                23
+     24  ONCOLOGIA CLINICA                                  24
+     25  PEDIATRIA ONCOLOGICA                               25
+     26  ORTOPEDIA                                          26
+     27  OTORRINOLARINGOLOGIA                               27
+     28  PEDIATRIA                                          28
+     29  PNEUMOLOGIA                                        29
+     30  PROCTOLOGIA                                        30
+     31  RADIOTERAPIA                                       31
+     32  UROLOGIA                                           32
+     33  MASTOLOGIA                                         33
+     34  ONCOLOGIA CUTANEA                                  34
+     35  CIRURGIA PELVICA                                   35
+     36  CIRURGIA ABDOMINAL                                 36
+     37  ODONTOLOGIA                                        37
+     38  CEMO                                               38
+     39  ENDOSCOPIA                                         39
+     40  ESTOMAGO ODONTOLOGIA                               40
+     41  PLASTICA REPARADORA                                41
+     42  TECIDO OSSEO E CONECTIVO                           42
+     43  HEMOTERAPIA                                        43
+     44  MEDICINA NUCLEAR                                   44
+     45  PSIQUIATRIA                                        45
+     46  TRIAGEM                                            46
+     47  CLINICA DA DOR                                     47
+     48  SUPORTE TERAPEUTICO ONCOLOGICO                     48
+     49  ABDOMEN PELVICA                                    50
+     50  TRANSPLANTE HEPATICO                               51
+     51  NAO SE APLICA                                      88

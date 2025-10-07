@@ -1,0 +1,9 @@
+; Registro Hospitalar de Cancer
+; LATERALIDADE
+
+5  1
+      1  Direita                                            1
+      2  Esquerda                                           2
+      3  Bilateral                                          3
+      4  Nao se aplica                                      8
+      5  Sem informacao                                     9

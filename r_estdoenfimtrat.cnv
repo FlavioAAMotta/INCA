@@ -1,0 +1,11 @@
+; Registro Hospitalar de Cancer
+; Estado da Doenca ao Final do Primeiro Tratamento no Hospital
+8   1
+      1  Sem evidencia da doenca Remissao completa          1
+      2  Remissao parcial                                   2
+      3  Doenca estavel                                     3
+      4  Doenca em progressao                               4
+      5  Fora de possibilidade terapeutica                  5
+      6  Obito                                              6
+      7  Nao se aplica                                      8
+      8  Sem informacao                                     9

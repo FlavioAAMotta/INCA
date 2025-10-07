@@ -1,0 +1,9 @@
+; Registro Hospitalar de Cancer
+; diagn e tratamento anteriores
+
+5  1
+      1  Sem Diagnostico  Sem Tratamento                    1     
+      2  Com Diagnostico  Sem Tratamento                    2 
+      3  Com Diagnostico  Com Tratamento                    3 
+      4  Outros                                             4
+      5  Sem Informacao                                     9

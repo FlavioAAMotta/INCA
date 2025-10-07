@@ -1,0 +1,12 @@
+; Registro Hospitalar de Cancer
+; Grau de instrucao
+
+7  1
+      1  Nenhuma                                            1
+      2  Fundamental incompleto                             2
+      3  Fundamental completo                               3
+      4  Nivel medio                                        4
+      5  Nivel superior incompleto                          5
+      6  Nivel superior completo                            6
+      7  Sem informacao                                     9
+

@@ -1,0 +1,843 @@
+; Registro Hospitalr de Cancer
+; morfologias CIDO2
+;
+836  6 L
+    001  Acrospiroma ecrino C44.                            8402/0
+    002  Adamantinoma de ossos longos                       9261/3
+    003  Adenocarc. com metaplasia cartilag e ossea         8571/3
+    004  Adenocarc. in situ em adenoma tubuloviloso         8263/2
+    005  Adenocarc.papilar intraductal com invasao          8503/3
+    006  Adenocarc.papilar intraductal nao infiltr          8503/2
+    007  Adenocarcinoma alveolar                            8251/3
+    008  Adenocarcinoma apocrino                            8401/3
+    009  Adenocarcinoma basocelular                         8147/3
+    010  Adenocarcinoma bronquiolo-alveolar                 8250/3
+    011  Adenocarcinoma ceruminoso C44.2                    8420/3
+    012  Adenocarcinoma com metaplasia apocrina             8573/3
+    013  Adenocarcinoma com metaplasia escamosa             8570/3
+    014  Adenocarcinoma com metaplasia fusocelular          8572/3
+    015  Adenocarc de celulas claras em agua de rocha       8322/3
+    016  Adenocarcinoma de celulas claras, SOE              8310/3
+    017  Adenocarcinoma de celulas mistas                   8323/3
+    018  Adenocarcinoma de glandula sudoripara              8400/3
+    019  Adenocarcinoma de propagacao superficial           8143/3
+    020  Adenocarcinoma em adenomia tubuloviloso            8263/3
+    021  Adenocarcinoma em adenoma viloso                   8261/3
+    022  Adenocarcinoma em polipo adenomatoso               8210/3
+    023  Adenocarcinoma em polipos adenomatosos mult        8221/3
+    024  Adenocarcinoma em polipose adenomatosa colon       8220/3
+    025  Adenocarcinoma esquirroso                          8141/3
+    026  Adenocarcinoma folicular bem diferenciado          8331/3
+    027  Adenocarcinoma folicular, SOE                      8330/3
+    028  Adenocarcinoma folicular, trabecular               8332/3
+    029  Adenocarcinoma in situ em adenoma viloso           8261/2
+    030  Adenocarcinoma in situ em polipo adenomatoso       8210/2
+    031  Adenocarcinoma in situ, SOE                        8140/2
+    032  Adenocarcinoma metastico, SOE                      8140/6
+    033  Adenocarcinoma misto, das ilhotas e exocrino       8154/3
+    034  Adenocarcinoma mucinoso                            8480/3
+    035  Adenocarcinoma oxifilico                           8290/3
+    036  Adenocarcinoma papilar, SOE                        8260/3
+    037  Adenocarcinoma produtor de mucina                  8481/3
+    038  Adenocarcinoma sebaceo                             8410/3
+    039  Adenocarcinoma trabecular                          8190/3
+    040  Adenocarcinoma tubular                             8211/3
+    041  Adenocarcinoma viloso                              8262/3
+    042  Adenocarcinoma, SOE                                8140/3
+    043  Adenocarcinoma, tipo intestinal                    8144/3
+    044  Adenofibroma de celulas claras                     8313/0
+    045  Adenofibroma endometrioide maligno C56.9           8381/3
+    046  Adenofibroma endometriode, SOE C56.9               8381/0
+    047  Adenofibroma endometrioide malign.limitrofe        8381/1
+    048  Adenofibroma mucinoso C56.9                        9015/0
+    049  Adenofibroma seroso C56.9                          9014/0
+    050  Adenofibroma, SOE C56.9                            9013/0
+    051  Adenolinfoma C07. ,C08.                            8561/0
+    052  Adenoma acidofilo C75.1                            8280/0
+    053  Adenoma alveolar C34.                              8251/0
+    054  Adenoma apocrino                                   8401/0
+    055  Adenoma basocelular C07. ,C08.                     8147/0
+    056  Adenoma basofilo C75.1                             8300/0
+    057  Adenoma bronquico, SOE                             8140/1
+    058  Adenoma ceruminoso C44.2                           8420/0
+    059  Adenoma cromofobo C75.1                            8270/0
+    060  Adenoma de apendice cutaneo C44.                   8390/0
+    061  Adenoma de celulas acinosas                        8550/0
+    062  Adenoma de celulas claras                          8310/0
+    063  Adenomia de celulas claras em agua de rocha        8322/0
+    064  Adenoma de celulas das ilhotas C25.                8150.0
+    065  Adenoma de celulas hepaticas C22.0                 8170.0
+    066  Adenoma de celulas mistas                          8323/0
+    067  Adenoma de celulas principais C75.0                8321/0
+    068  Adenoma de ducto biliar C22.1                      8160/0
+    069  Adenoma de glandula sudoripara C44.                8400/0
+    070  Adenoma do cortex supra renal,celulas claras       8373/0
+    071  Adenoma do cortex supra renal,celulas compactas    8371/0
+    072  Adenoma do cortex supra renal,celulas da glomer    8374/0
+    073  Adenoma do cortex supra renal, de celulas mistas   8375/0
+    074  Adenoma do cortex supra renal, SOE C74.0           8370/0
+    075  Adenoma do cortex supra renal, variante dens       8372/0
+    076  Adenoma do mamilo C50.0                            8506/0
+    077  Adenoma embrionario                                8191/0
+    078  Adenoma endometrioide, SOE C56.9                   8380/0
+    079  Adenoma endometriode malignidade limitrofe         8380/1
+    080  Adenoma folicular C73.9                            8330/0
+    081  Adenoma microcistico C25.                          8202/0
+    082  Adenoma microfolicular C73.9                       8333/0
+    083  Adenoma misto acidofilo basofilo C75.1             8281/0
+    084  Adenoma monomorfico                                8146/0
+    085  Adenoma mucinoso                                   8480/0
+    086  Adenoma oxifilico                                  8290/0
+    087  Adenoma papilar ecrino C44.0                       8408/0
+    088  Adenoma papilar intracistico                       8504/0
+    089  Adenoma papilar, SOE                               8260/0
+    090  Adenoma pleomorfico                                8940/0
+    091  Adenoma sebaceo C44.                               8410/0
+    092  Adenoma trabecular                                 8190/0
+    093  Adenoma tubular SOE                                8211/0
+    094  Adenoma tubuloviloso, SOE                          8263/0
+    095  Adenoma viloso, SOE                                8261/1
+    096  Adenoma, SOE                                       8140/0
+    097  Adenomas endocrinos multiplos                      8360/0
+    098  Adenomatose pulmonar C34.                          8250/1
+    099  Adenomioepitelioma                                 8983/0
+    100  Adenomioma                                         8932/0
+    101  Adenossarcoma                                      8933/3
+    102  Ameloblastoma maligno                              9310/3
+    103  Ameloblastoma, SOE                                 9310/0
+    104  Androblastoma benigno                              8630/0
+    105  Androblastoma maligno                              8630/3
+    106  Androblastoma, SOE                                 8630/1
+    107  Anemia refrat com exc blastos,com transform        9984/1
+    108  Anemia refrataria com execesso de blastos          9983/1
+    109  Anemia refrataria com sideroblastos                9982/1
+    110  Anemia refrataria, SOE                             9980/1
+    111  Anemia refrataria sem sideroblastos                9981/1
+    112  Angioceratoma                                      9141/0
+    113  Angioendoteliomatose                               9712/3
+    114  Angiofibroma, SOE                                  9160/0
+    115  Angiolipoma, SOE                                   8861/0
+    116  Angiomiolipoma                                     8860/0
+    117  Angiomioma                                         8894/0
+    118  Angiomiossarcoma                                   8894/3
+    119  Angiomixoma                                        8841/1
+    120  Apudoma                                            8248/1
+    121  Astroblastoma                                      9430/3
+    122  Astrocitoma anaplastico                            9401/3
+    123  Astrocitoma fibrilar                               9420/3
+    124  Astrocitoma gemistocitico                          9411/3
+    125  Astrocitoma pilocitico                             9421/3
+    126  Astrocitoma protoplasmatico                        9410/3
+    127  Astrocitoma subependimal de celulas gigantes       9384/1
+    128  Astrocitoma, SOE                                   9400/3
+    129  Blastoma pulmonar                                  8972/3
+    130  Carc.cel.escamosas grandes,nao ceratinizado        8072/3
+    131  Carc.cel.escamosas pequenas,nao ceratinizado       8073/3
+    132  Carc.hepatocelular e colangiocarc.combinados       8180/3
+    133  Carc.in situ cel.escam-invasao quest.estroma       8076/2
+    134  Carcinoide composto                                8244/3
+    135  Carcinoide de celulas caliciformes C18.1           8243/3
+    136  Carcinoide do estroma C56.9                        9091/1
+    137  Carcinoma acidofilo C75.1                          8280/3
+    138  Carcinoma adenoescamoso                            8560/3
+    139  Carcinoma adenoide cistico                         8200/3
+    140  Carcinoma anaplasio, SOE                           8021/3
+    141  Carcinoma basaloide                                8123/3
+    142  Carcinoma basocelular, fibroepitelial              8093/3
+    143  Carcinoma basocelular, multicentrico               8091/3
+    144  Carcinoma basocelular, SOE                         8090/3
+    145  Carcinoma basocelular, tipo morfeia                8092/3
+    146  Carcinoma basoescamoso                             8094/3
+    147  Carcinoma basofilo C75.1                           8300/3
+    148  Carcinoma cel.escamosas ceratinizado, SOE          8071/3
+    149  Carcinoma cel.pequenas e de cel.grandes            8045/3
+    150  Carcinoma celulas escamosas, micro-invasor         8076/3
+    151  Carcinoma celulas pequenas, intermediarias         8044/3
+    152  Carcinoma cloacogenico                             8124/3
+    153  Carcinoma cribriforme                              8201/3
+    154  Carcinoma cromofobo                                8270/3
+    155  Carcinoma de apendice cutaneo                      8390/3
+    156  Carcinoma de cel.transicionais fusiformes          8122/3
+    157  Carcinoma de celulas acinosas                      8550/3
+    158  Carcinoma de celulas acinosas                      8551/0
+    159  Carcinoma de celulas das ilhotas                   8150/3
+    160  Carcinoma de celulas de Merkel                     8247/3
+    161  Carcinoma de celulas de Sertoli C62.               8640/3
+    162  Carcinoma de celulas em anel de sinete             8490/3
+    163  Carcinoma de celulas ascamosas adenoide            8075/3
+    164  Carcinoma de celulas escamosas fusiformes          8074/3
+    165  Carcinoma de celulas escamosas metastatico, SOE    8070/6
+    166  Carcinoma de celulas escamosas, SOE                8070/3
+    167  Carcinoma de celulas gigantes                      8031/3
+    168  Carcinoma de celulas granulares                    8320/3
+    169  Carcinoma de celulas pequenas, fusiformes          8043/3
+    170  Carcinoma de celulas pequenas, SOE                 8041/3
+    171  Carcinoma de celulas poligonais                    8034/3
+    172  Carcinoma de celulas renais                        8312/3
+    173  Carcinoma de celulas transacionais ins itu         8120/2
+    174  Carcinoma de celulas transacionais, SOE            8120/3
+    175  Carcinoma do cortex supra-renal                    8370/3
+    176  Carcinoma ductal infiltrante                       8500/3
+    177  Carcinoma ductal infiltrante e lobular             8522/3
+    178  Carcinoma ductalar infiltrante                     8521/3
+    179  Carcinoma em adenoma pleomorfico                   8941/3
+    180  Carcinoma embrionario, SOE                         9070/3
+    181  Carcinoma endometrioide                            8380/3
+    182  Carcinoma epitelial miopitelial                    8562/3
+    183  Carcinoma esclerosante nao encapsulado             8350/3
+    184  Carcinoma fusocelular                              8032/3
+    185  Carcinoma hepatocelular fibrolamelar               8171/3
+    186  Carcinoma hepatocelular, SOE                       8170/3
+    187  Carcinoma in situ de celulas escamosas, SOE        8070/2
+    188  Carcinoma in situ, SOE                             8010/2
+    189  Carcinoma indiferenciado, SOE                      8020/3
+    190  Carcinoma inflamatorio                             8530/3
+    191  Carcinoma intracistico nao infiltrante             8504/2
+    192  Carcinoma intracistico, SOE                        8504/3
+    193  Carcinoma intraductal e carc.lobular in situ       8522/2
+    194  Carcinoma intraductal nao infiltrante, SOE         8500/2
+    195  Carcinoma juvenil de mama                          8502/3
+    196  Carcinoma linfoepitelial                           8082/3
+    197  Carcinoma lobular in situ                          8520/2
+    198  Carcinoma lobular, SOE                             8520/3
+    199  Carconima medular com estroma amiloide             8511/3
+    200  Carcinoma medular com estroma linfoide C50.        8512/3
+    201  Carcinoma medular, SOE                             8510/3
+    202  Carcinoma metastico de celem anel de sinete        8490/6
+    203  Carcinoma metastico, SOE                           8010/6
+    204  Carcinoma metastico                                8095/3
+    205  Carcinoma mioepitelial                             8982/3
+    206  Carcinoma misto acidofilo basofilo C75.1           8281/3
+    207  Carcinoma mucuopidermoide                          8430/3
+    208  Carcinoma neuroendocrino                           8246/3
+    209  Carcinoma oat cel                                  8042/3
+    210  Carcinoma papilar de celulas escamosas             8052/3
+    211  Carcinoma papilar de celulas transicionais         8130/3
+    212  Carcinoma papilar in situ                          8050/2
+    213  Carcinoma papilar, SOE                             8050/3
+    214  Carcinoma papilar, variante folicular              8334/0
+    215  Carcinoma papilar, variante folicular C73.9        8340/3
+    216  Carcinoma pleomorfico                              8022/3
+    217  Carcinoma pseudossarcomatoso                       8033/3
+    218  Carcinoma rico em glicogenio C50.                  8315/3
+    219  Carcinoma rico em lipides C50.                     8314/3
+    220  Carcinoma schneideriano                            8121/3
+    221  Carcinoma seroso papilar de superficie             8461/3
+    222  Carcinoma simples                                  8231/3
+    223  Carcinoma solido, SOE                              8230/3
+    224  Carcinoma triquilemal                              8102/3
+    225  Carcinoma verrucoso, SOE                           8051/3
+    226  Carcinoma, SOE                                     8010/3
+    227  Carcinoma, tipo difuso                             8145/3
+    228  Carcinomas de celulas grandes, SOE                 8012/3
+    229  Carcinomatose                                      8010/9
+    230  Carcinome celulas gigantes e fusocelular           8030/3
+    231  Carcinossarcoma embrionario                        8981/3
+    232  Carcinossarcoma, SOE                               8980/3
+    233  Cel.tumorais incerto se benignas ou malignas       8001/1
+    234  Celulas tumorais malignas                          8001/3
+    235  Celulas tumorais, benignas                         8001/0
+    236  Cementoblastoma benigno                            9273/0
+    237  Cementoma gigantiforme                             9275/0
+    238  Cementoma, SOE                                     9272/0
+    239  Cilindroma dermico ecrino C44.                     8200/0
+    240  Cistadenocarcinoma de ductos biliares              8161/3
+    241  Cistadenocarcinoma mucinoso papilar                8471/3
+    242  Cistadenocarcinoma mucinoso, SOE                   8470/3
+    243  Cistadenocercinoma papilar seroso                  8460/3
+    244  Cistadenocarcinoma papilar, SOE                    8450/3
+    245  Cistadenocarcinoma seroso, SOE                     8441/3
+    246  Cistadenocarcinoma, SOE                            8440/3
+    247  Cistadenoma de ductos biliares                     8161/0
+    248  Cistadenoma mucinoso papilar de malig limit        8473/3
+    249  Cistadenoma mucinoso papilar, SOE C56.9            8471/0
+    250  Cistadenoma mucionoso, SOE C56.9                   8470/0
+    251  Cistadenoma mucionoso malignidade limitrofe        8472/3
+    252  Cistadenome papilar de malignidade limitrofe       8451/3
+    253  Cistadenoma papilar seroso, SOE C56.9              8460/0
+    254  Cistodenoma papilar, SOE C56.9                     8450/0
+    255  Cistadenoma seroso malig.limitrofe borderlin       8442/3
+    256  Cistadenoma seroso papilar malig.limitrofe         8462/3
+    257  Cistadenoma seroso, SOE C56.9                      8441/0     
+    258  Cistadenoma, SOE                                   8440/0
+    259  Cisto dermoide, SOE                                9084/0
+    260  Cisto odontogenico calcificante                    9301/0
+    261  Clinicamente tumor maligno                         9990/3
+    262  Colangiocarcinoma                                  8160/3
+    263  Comedocarcinoma nao infiltrante                    8501/2
+    264  Comedocarcinoma, SOE                               8501/3
+    265  Condroblastoma maligno                             9230/3
+    266  Condroblastoma, SOE C40. , C41.                    9230/0
+    267  Condroma justacortical C40. . C41.                 9221/0
+    268  Condroma, SOE C40. , C41.                          9220/0
+    269  Condromatose, SOE                                  9220/1
+    270  Condrossarcoma justacortical                       9221/3
+    271  Condrossarcoma mesenquimal                         9240/3
+    272  Condrossarcoma mixiode                             9231/3
+    273  Condrossarcoma, SOE                                9220/3
+    274  Cordoma                                            9370/3
+    275  Coriocarcinoma combin.com out elem.cel.germ        9101/3
+    276  Coriocarcinoma, SOE                                9100/3
+    277  Craniofaringioma                                   9350/1
+    278  Dentinoma                                          9271/0
+    279  Dermatofibroma, SOE C44.                           8832/0
+    280  Dermatofibrossarcoma protuberante pigmentado       8833/3
+    281  Dermatofibrossarcoma, SOE                          8832/3
+    282  Disgerminoma                                       9060/3
+    283  Doenca da cadeia pesada alfa                       9762/3
+    284  Doenca da cadeia pesada gama                       9763/3
+    285  Doenca de Bowen                                    8081/2
+    286  Doenca de Hodkin, celularidade mista, SOE          9652/3
+    287  Doenca de Hodgkin, deplecao linf, com fibrose      9654/3
+    288  Doenca de Hodgkin, deplecao linfocitica, SOE       9653/3
+    289  Doenca de Hodgkin, esclerose nodular, SOE          9663/3
+    290  Doenca de Hodgkin, SOE                             9650/3
+    291  Doenca de Hodgkin,depl.linfocitica,reticular       9655/3
+    292  Doenca de Hodgkin,escl.nodular,celul.mista         9666/3
+    293  Doenca de Hodgkkin,escl.nodular,depl,linfocit      9667/3
+    294  Doenca de Hodgkin,escl.nodular,fase celular        9664/3
+    295  Doenca de Hodgkin,escl.nodular,pred. linfocit      9665/3
+    296  Doenca de Hodgkin,predom. linfocitica, difusa      9658/3
+    297  Doenca de Hodgkin,predom. linfocitica, SOE         9657/3
+    298  Doenca de Hodgkin,predom. linfocitica,nodular      9659/3
+    299  Doenca de Letterer Siwe                            9722/3
+    300  Doenca de Paget e carc.ductal infiltr.mama         8541/3
+    301  Doenca de Paget e carc.intracductal da mama        8543/3
+    302  Doenca de Paget extramamaria exceto do osso        8542/3
+    303  Doenca de Sezary                                   9701/3
+    304  Doenca imunoproliferat do intestino delgado        9764/3
+    305  Doenca imunoproliferativa, SOE                     9760/3
+    306  Doenca linfoproliferativa gama T                   9768/1
+    307  Doenca linfoproliferativa, SOE                     9970/1
+    308  Doenca mamaria de Paget                            8540/3
+    309  Doenca mieloproliferativa cronica                  9960/1
+    310  Doenca lentigo melanot de Hutchinson, SOE          8742/2
+    311  Elastofibroma                                      8820/0
+    312  Ependimoma anaplasico                              9392/3
+    313  Ependimoma mixopapilar                             9394/1
+    314  Ependimama papilar C71.                            9393/1
+    315  Ependimoma, SOE                                    9391/3
+    316  Epitelioma benigno                                 8011/0
+    317  Epitelioma intra epidermico de Jadassohn           8096/0
+    318  Epitelioma maligno                                 8011/3
+    319  Eritremia aguda                                    9841/3
+    320  Eritemia cronica                                   9842/3
+    321  Eritroleucemia                                     9840/3
+    322  Eritroplasia de Queyrat C60.                       8080/2
+    323  Espiradenoma ecrino C44.                           8403/0
+    324  Espongioblastoma polar C71.                        9423/3
+    325  Espongioblastoma polar primitivo C71.              9443/3
+    326  Espongioblastoma, SOE C71.                         9422/3
+    327  Espongioneuroblastoma                              9504/3
+    328  Estesioneuroblastoma                               9522/3
+    329  Estesioneurocitoma C30.0                           9521/3
+    330  Estesioneuroepitelioma C30.0                       9523/3
+    331  Estroma ovariano maligno C56.9                     9090/3
+    332  Estroma ovariano, SOE C56.9                        9090/0
+    333  Feocromocitoma maligno                             8700/3
+    334  Feocromocitoma, SOE C74.1                          8700/0
+    335  Fibroadenoma gigante C50.                          9016/0
+    336  Fibroadenoma intracanalicular C50.                 9011/0
+    337  Fibroadenoma juvenil C50.                          9030/3
+    338  Fibroadenoma pericanalicular C50.                  9012/0
+    339  Fibroadenoma, SOE C50.                             9010/0
+    340  Fibrolipoma                                        8851/0
+    341  Fibroma ameloblastico                              9330/0
+    342  Fibroma cementificante                             9274/0
+    343  Fibroma de fascia                                  8813/0
+    344  Fibroma desmoplastico                              8823/1
+    345  Fibroma odontogenico central                       9321/0
+    346  Fibroma odontogenico periferico                    9322/0
+    347  Fibroma ossificante                                9262/0
+    348  Fibroma periosteal C40. , C41                      8812/0
+    349  Fibroma, SOE                                       8810/0
+    350  Fibromatose abdominal                              8822/1
+    351  Fibromatose agressiva                              8821/1
+    352  Fibromixolipoma                                    8852/0
+    353  Fibromixoma                                        8811/0
+    354  Fibromixossarcoma                                  8811/3
+    355  Fibro odontoma ameloblastico                       9290/0
+    356  Fibrossarcoma ameloblastico                        9330/3
+    357  Fibrossarcoma condromixiode C40. . C41.            9241/0
+    358  Fibrossarcoma de fascia                            8813/3
+    359  Fibrossarcoma infantil                             8814/3
+    360  Fibrossarcoma periosteal C40. , C41.               8812/3
+    361  Fibrossarcoma, SOE                                 8810/3
+    362  Gamopatia monoclonal                               9765/1
+    363  Ganglioglioma                                      9505/1
+    364  Ganglioneuroblastoma                               9490/3
+    365  Ganglioneuroma                                     9490/0
+    366  Ganglioneuromatose                                 9491/0
+    367  Gastrinoma maligno                                 8153/3
+    368  Gastrinoma, SOE                                    8153/1
+    369  Gerinoma                                           9064/3
+    370  Ginandroblastoma C56.9                             8632/1
+    371  Gliblastoma de celulas gigantes                    9441/3
+    372  Glioblastoma, SOE                                  9440/3
+    373  Glioma maligno                                     9380/3
+    374  Glioma misto                                       9382/3
+    375  Glioma subependimal C71.                           9383/1
+    376  Gliomatose cerebral                                9381/3
+    377  Gliossarcoma                                       9442/3
+    378  Glomangioma                                        8712/3
+    379  Glomangiomioma                                     8713/0
+    380  Glomangiossarcoma                                  8710/3
+    381  Glucagonoma maligno C25.                           8152/3
+    382  Glucagonoma, SOE C25.                              8152/0
+    383  Gonadoblastoma                                     9073/1
+    384  Granuloma de Hodgkin                               9661/3
+    385  Hemangioblastoma                                   9161/1
+    386  Hemangioendotelioma benigno                        9130/0
+    387  Hemangioendotelioma epitelioide maligno            9133/3
+    388  Hemangioendotelioma epitelioide, SOE               9133/1
+    389  Hemangioendotelioma maligno                        9130/3
+    390  Hemangioendotelioma, SOE                           9130/1
+    391  Hemangioma capilar                                 9131/0
+    392  Hemangioma cavernoso                               9121/0
+    393  Hemangioma ceratosico verrucoso                    9142/0
+    394  Hemangioma epiteliode                              9125/0
+    395  Hemangioma histiocitoide                           9126/0
+    396  Hemangioma intramuscular                           9132/0
+    397  Hemangioma racemoso                                9123/0
+    398  Hemangioma venoso                                  9122/0
+    399  Hemangioma, SOE                                    9120/0
+    400  Hemangiopericitoma benigno                         9150/0
+    401  Hemangiopericitoma maligno                         9150/3
+    402  Hemangiopericitoma, SOE                            9150/1
+    403  Hamangiossarcoma                                   9120/3
+    404  Hemolinfangioma                                    9175/0
+    405  Hepatoblastoma                                     8970/3
+    406  Hibernoma                                          8880/0
+    407  Hidradenoma papilar C44.                           8405/0
+    408  Hidrocistoma C44.                                  8404/0
+    409  Histiocitoma fibroso atipico                       8830/1
+    410  Histiocitoma fibroso maligno                       8830/3
+    411  Histiocitoma fibroso, SOE                          8830/0
+    412  Histiocitose maligna                               9720/3
+    413  Insulinoma maligno                                 8151/3
+    414  Insulinoma, SOE C25.                               8151/0
+    415  Leiomioma bizarro                                  8893/0
+    416  Leiomioma celular                                  8892/0
+    417  Leiomioma epiteliode                               8891/0
+    418  Leiomioma, SOE                                     8890/0
+    419  Leiomiomatose, SOE                                 8890/1
+    420  Leiomiossarcoma epitelioide                        8891/3
+    421  Leiomiossarcoma mixoide                            8896/3
+    422  Leiomiossarcoma, SOE                               8890/3
+    423  Lesao imunoproliferativa angiocentrica             9766/1
+    424  Leucemia aguda, SOE                                9801/3
+    425  Leucemia aleucemica, SOE                           9804/3
+    426  Leucemia basofilica                                9870/3
+    427  Leucemia cel cabeludas pilosas hairy cell          9940/3
+    428  Leucemia cronica, SOE                              9803/3
+    429  Leucemia de celulas de Burkitt                     9826/3
+    430  Leucemia de celulas linfossarcomatosas             9850/3
+    431  Leucemia de mastocitos C42.1                       9900/3
+    432  Leucemia de plasmocitos                            9830/3
+    433  Leucemia eosinofilica                              9880/3
+    434  Leucemia linfoblastica aguda, SOE                  9821/3
+    435  Leucemia linfocitica cronica                       9823/3
+    436  Leucemia linfoide aleucemica                       9824/3
+    437  Leucemia linfoide subaguda                         9822/3
+    438  Leucemia linfoide, SOE                             9820/3
+    439  Leucemia megacarioblastica aguda                   9910/3
+    440  Leucemia mieloide aguda                            9861/3
+    441  Leucemia mieloide aleucemica                       9864/3
+    442  Leucemia mieloide cronica                          9863/3
+    443  Leucemia mieloide subaguda                         9862/3
+    444  Leucemia mieloide, SOE                             9860/3
+    445  Leucemia mielomonocitica aguda                     9867/3
+    446  Leucemia mielomonocitica cronica                   9868/3
+    447  Leucemia monocitica aguda                          9891/3
+    448  Leucemia monocitica aleucemica                     9894/3
+    449  Leucemia monocitica cronica                        9893/3
+    450  Leucemia monocitica subaguda                       9892/3
+    451  Leucemia monocitica, SOE                           9890/3
+    452  Leucemia prolinfocitica                            9825/3
+    453  Leucemia promielocitica aguda                      9866/3
+    454  Leucemia subaguda, SOE                             9802/3
+    455  Leucemia, SOE                                      9800/3
+    456  Leucemia linfoma de celulas T, do adulto           9827/3
+    457  Linf.malig,misto c.pequ.cliv c.grandes,filoc       9691/3
+    458  Linf.malig.cel.pequenas clivadas,folicular         9695/3
+    459  Linf.malig.centroblastico centrocitico,folic       9692/3
+    460  Linf.malig.linfocit,nodular,moder,diferenc         9694/3
+    461  Linf.malig.linfocitico,bem diferenc,nodular        9693/3
+    462  Linfadenopatia angio imunoblastica                 9767/1
+    463  Linfangioma capilar                                9171/0
+    464  Linfangioma cavernoso                              9172/0
+    465  Linfangioma cistico                                9173/0
+    466  Linfangioma, SOE                                   9170/0
+    467  Linfangiomioma                                     9174/0
+    468  Linfangiomiomatose                                 9174/1
+    469  Linfangiossarcoma                                  9170/3
+    470  Linfoma cels T,perif,cel.pequenas pleomorfic       9706/3
+    471  Linfoma cels T,perif,pleom,cel medias grande       9707/3
+    472  Linfoma cutaneo                                    9709/3
+    473  Linfoma da zona T                                  9703/3
+    474  Linfoma de Burkitt, SOE                            9687/3
+    475  Linfoma de celulas B monocitiodes                  9711/3
+    476  Linfoma de celulas grandes ki-+                    9714/3
+    477  Linfoma de celulas T angiocentrico                 9713/3
+    478  Linfoma de celulas T, hepatoesplenico              9716/3
+    479  Linfoma de celulas T, periferico LAID              9705/3
+    480  Linfoma de celulas T, periferico, SOE              9702/3
+    481  Linfoma de zona marginal de celulas B              9710/3
+    482  Linfoma histiocitico verdadeiro                    9723/3
+    483  Linfoma linfoepiteloide                            9704/3
+    484  Linfoma malig cel.pequenas nao clivadas,difu       9686/3
+    485  Linfoma malig,cel.grandes nao clivadas,difus       9682/3
+    486  Linfoma malig,centroblastico centrocitico,di       9676/3
+    487  Linfoma malig,misto cel.pequenas grandes,dif       9675/3
+    488  Linfoma malig.cel.grandes clivadas, difuso         9681/3
+    489  Linfoma malig.cel.grandes, folicular, SOE          9698/3
+    490  Linfoma malig.linfoc,dif.intermediaria,difus       9673/3
+    491  Linfoma maligno cel.pequenas clivadas,difuso       9672/3
+    492  Linfoma maligno centroblastico, difuso             9683/3
+    493  Linfoma maligno centroblastico, folicular          9697/3
+    494  Linfoma maligno centrocitico                       9674/3
+    495  Linfoma maligno de cel.grandes,difuso, SOE         9680/3
+    496  Linfoma maligno de celulas T paricul subcuta       9708/3
+    497  Linfoma maligno de linfocitos pequenos, SOE        9670/3
+    498  Linfoma maligno difuso, SOE                        9595/3
+    499  Linfoma maligno folicular, SOE                     9690/3
+    500  Linfoma maligno imunoblastico, SOE                 9684/3
+    501  Linfoma maligno linfoblastico                      9685/3
+    502  Linfoma maligno linfoc, pouco difer,nodular        9696/3
+    503  Linfoma linfoplasmocitico                          9671/3
+    504  Linfoma maligno nao Hodgkin, SOE                   9591/3
+    505  Linfoma maligno, SOE                               9590/3
+    506  Linfoma tipo Malt                                  9715/3
+    507  Linfoma Leucemia celulas T intestinal              9717/3
+    508  Linfossarcoma, SOE                                 9592/3
+    509  Linite plastica C16.                               8142/3
+    510  Lipoadenoma                                        8324/0
+    511  Lipoblastomatose                                   8881/0
+    512  Lipoma fusocelular                                 8857/0
+    513  Lipoma intramuscular                               8856/0
+    514  Lipoma pleomorfico                                 8854/0
+    515  Lipoma, SOE                                        8850/0
+    516  Lipossarcoma bem diferenciado                      8851/3
+    517  Lipossarcoma de celulas redondas                   8853/3
+    518  Lipossarcoma desdiferenciado                       8858/3
+    519  Lipossarcoma misto                                 8855/3
+    520  Lipossarcoma mixoide                               8852/3
+    521  Lipossarcoma pleomorfico                           8854/3
+    522  Lipossarcoma, SOE                                  8850/3
+    523  Luteoma, SOE C56.9                                 8610/0
+    524  Macroglobulinemia de waldenstrom                   9761/3
+    525  Mastocitoma, SOE                                   9740/1
+    526  Mastocitose maligna                                9741/3
+    527  Meduloblastoma desmoplasico                        9471/3
+    528  Meduloblastoma, SOE                                9470/3
+    529  Meduloepitelioma teratoide                         9502/3
+    530  Meduloepitelioma, SOE                              9501/3
+    531  Medulomioblastoma                                  9472/3
+    532  Melonoma amelanotico                               8730/3
+    533  Melanoma de celulas baloniformes C44.              8722/3
+    534  Melanoma de celulas epitelioides                   8771/3
+    535  Melanoma de propagacao superficial                 8743/3
+    536  Melanoma de propagacao superficial in situ         8743/2
+    537  Melanoma desmoplastico maligno                     8745/3
+    538  Melanoma fusocelular, SOE                          8772/3
+    539  Melanoma fusocelular, tipo A                       8773/3
+    540  Melanoma fusocelular, tipo B                       8774/3
+    541  Melanoma in situ                                   8720/2
+    542  Melanoma lentig.maligno das extremidades           8744/3
+    543  Melanoma malig.em lentigo melanot.Hutchinson       8742/3
+    544  Melanoma maligno em melanose pre cancer C44.       8741/3
+    545  Melanoma maligno em nevo juncional                 8740/3
+    546  Melanoma maligno em nevo pigment gig C44.          8761/3
+    547  Melanoma maligno em regressao                      8723/3
+    548  Melanoma maligno, SOE                              8720/3
+    549  Melanoma misto epitelioide e fusocelular           8770/3
+    550  Melanoma nodular                                   8721/3
+    551  Melonose pre cancerosa, SOE C44.                   8741/2
+    552  Meningioma angipmatoso                             9534/0
+    553  Meningioma fibroso                                 9532/0
+    554  Meningioma hemangioblastico                        9535/0
+    555  Meningioma hemangiopericitico                      9536/0
+    556  Meningioma maligno                                 9530/3
+    557  Meningioma meningoteliomatoso                      9531/0
+    558  Meningioma papilar                                 9538/1
+    559  Meningioma psamomatoso                             9533/0
+    560  Meningioma transacional                            9537/0
+    561  Meningioma, SOE                                    9530/0
+    562  Meningiomatose, SOE                                9530/1
+    563  Mesenquimoma benigno                               8990/0
+    564  Mesenquimoma maligno                               8990/3
+    565  Mesenquionoma, SOE                                 8990/1
+    566  Mesonefroma benigno                                9110/0
+    567  Mesonefroma maligno                                9110/3
+    568  Mesotelioma benigno                                9050/0
+    569  Mesotelioma bifasico benigno                       9053/0
+    570  Mesotelioma bifasico maligno                       9053/3
+    571  Mesotelioma cistico C48.                           9055/1
+    572  Mesotelioma epitelioide benigno                    9052/0
+    573  Mesotelioma epitelioide maligno                    9052/3
+    574  Mesotelina fibroso benigno                         9051/0
+    575  Mesotelioma fibroso maligno                        9051/3
+    576  Mesotelioma maligno                                9050/3
+    577  Micose fungoide                                    9700/3
+    578  Microglioma C71.                                   9594/3
+    579  Mielodisplasia                                     9989/3
+    580  Mieloesclerose com metaplasia mieloide             9961/1
+    581  Mielofibrose aguda                                 9932/3
+    582  Mielolipoma                                        8870/0
+    583  Mieloma multiplo                                   9732/3
+    584  Mioepitelioma                                      8982/0
+    585  Miofibromatose                                     8824/1
+    586  Mioma                                              8895/0
+    587  Miose endolinfatica do estroma C54.1               8931/1
+    588  Miossarcoma                                        8895/3
+    598  Mixoma odontogenico                                9320/0
+    590  Mixoma, SOE                                        8840/0
+    591  Mixossarcoma                                       8840/3
+    592  Mola hidatiforme invasiva                          9100/1
+    593  Mola hidatiforme parcial C58.9                     9103/0
+    594  Mola Hidatiforme, SOE C58.9                        9100/0
+    595  Nefroblastoma, SOE                                 8960/3
+    596  Nefroma mesoblastico                               8960/1
+    597  Neop.intra-epit.gIII colo utero vulva vagina       8077/2
+    598  Neoplasia benigna                                  8000/0
+    599  Neoplasia comport.incerto benigno ou maligno       8000/1
+    600  Neoplasia maligna                                  8000/3
+    601  Neoplasia Maligna de celulas redondas              8005/3
+    602  Neoplasia maligna, incerta se prim ou metast       8000/9
+    603  Neoplasia metastica                                8000/6
+    604  Neurilemoma maligno                                9560/3
+    605  Neurimoma, SOE                                     9560/0
+    606  Neurinomatose                                      9560/1
+    607  Neuroblastoma, SOE                                 9500/3
+    608  Neurocitoma                                        9506/0
+    609  Neuroepitelioma, SOE                               9503/3
+    610  Neurofibroma melanotico                            9541/0
+    611  Neurofibroma plexiforme                            9550/0
+    612  Neurofibroma, SOE                                  9540/0
+    613  Neurofibromatose, SOE                              9540/1
+    614  Neurofibrossarcoma                                 9540/3
+    615  Neuroma, SOE                                       9570/0
+    616  Neuronevo C44.                                     8725/0
+    617  Neurotecoma                                        9562/0
+    618  Nevo azul celular C44.                             8790/0
+    619  Nevo azul maligno                                  8780/3
+    620  Nevo azul SOE C44.                                 8780/0
+    621  Nevo composto C44.                                 8760/0
+    622  Nevo de celulas baloniformes C44.                  8722/0
+    623  Nevo de celulas epiteloides C44.                   8771/0
+    624  Nevo de halo C44.                                  8723/0
+    625  Nevo displasico C44.                               8727/0
+    626  Nevo epitelioide e fusocelular C44.                8770/0
+    627  Nevo fusocelular C44.                              8772/0
+    628  Nevo intradermico C44.                             8750/0
+    629  Nevo juncional, SOE C44.                           8740/0
+    630  Nevo magnocelular C69.4                            8726/0
+    631  Nevo nao pigmentado C44.                           8730/0
+    632  Nevo pigmentado gigante, SOE C44.                  8761/1
+    633  Nevo pigmentado, SOE C44.                          8720/0
+    634  Nodulo do estroma endometrial C54.1                8930/0
+    635  Odontoameloblastoma                                9311/0 
+    636  Odontoma complexo                                  9282/0
+    637  Odontoma composto                                  9281/0
+    638  Odontoma, SOE                                      9280/0
+    639  Odontossarcoma ameloblastico                       9290/3
+    640  Oligodendroblastoma                                9460/3
+    641  Oligodendroglioma anaplasico                       9451/3
+    642  Oligodendroglioma, SOE                             9450/3
+    643  Osteoblastoma agressivo                            9200/1
+    644  Osteoblastoma, SOE C40. , C41.                     9200/0
+    645  Osteocondroma C40. , C41.                          9210/0
+    646  Osteocondromatose, SOE                             9210/1
+    647  Osteoma osteoide, SOE C40.0 , C41.                 9191/0
+    648  Osteoma, SOE C40. , C41.                           9180/0
+    649  Osteossarcoma condroblastico                       9181/3
+    650  Osteossarcoma de celulas pequenas                  9185/3
+    651  Osteossarcoma em doenca de Paget do osso           9184/3
+    652  Osteossarcoma fibroblastico                        9182/3
+    653  Osteossarcoma justacortical                        9190/3
+    654  Osteossarcoma telangiectasico                      9183/3
+    655  Osteossarcoma, SOE                                 9180/3
+    656  Pancreatoblastoma                                  8971/3
+    657  Panmielose aguda                                   9931/3
+    658  Papiloma de cel.transacionais,tipo invertido       8125/1
+    659  Papiloma de celulas escamosas                      8052/0
+    660  Papiloma de celulas transacionais, SOE             8120/0
+    661  Papiloma de plexo coroide, SOE C71.5               8390/0
+    662  Papiloma intraductal                               8503/0
+    663  Papiloma invertido                                 8053/0
+    664  Papiloma maligno de plexo coroide                  9390/3
+    665  Papiloma schneideriano                             8121/0
+    666  Papiloma seroso de suprficie C56.9                 8461/0
+    667  Papiloma urotelial                                 8120/1
+    668  Papiloma verrucoso                                 8051/0
+    669  Papiloma, SOE                                      8050/0
+    670  Papilomatose intraductal, SOE                      8505/0
+    671  Papilomatose, SOE                                  8060/0
+    672  Papula fibrosa do nariz C44.3                      8724/0
+    673  Paraganglioma extra supra renal maligno            8693/3
+    674  Paraganglioma extra supra renal, SOE               8693/1
+    675  Paraganglioma gangliocitico C17.0                  8683/0
+    676  Paraganglioma maligno                              8680/3
+    677  Paraganglioma parassimpatico                       8682/1
+    678  Paraganglioma simpatico                            8681/1
+    679  Paraganglioma, SOE                                 8680/1
+    680  Paragranuloma de Hodgkin, SOE                      9660/3
+    681  Pilomatrixoma maligno                              8110/3
+    682  Pilomatrixoma, SOE C44.                            8110/0
+    683  Pinealoma C75.3                                    9360/1
+    684  Pineoblastoma                                      9362/3
+    685  Pineocitoma                                        9361/1
+    686  Plasmocitoma, SOE                                  9731/3
+    687  Polocotemia vera                                   9950/1
+    688  Poliembrioma                                       9072/3
+    689  Polipo adenomatoso, SOE                            8210/0
+    690  Polipos adenomatosos multiplos                     8221/0
+    691  Polipose adenomatosa do colo C18.                  8220/0
+    692  Polipose linformatosa maligna                      9677/3
+    693  Poroma ecrino maligno                              8402/3
+    694  Prolactinoma C75.1                                 8271/0
+    695  Pseudomixoma do peritonio C48.2                    8480/6
+    696  Rabdomioma adulto                                  8904/0
+    697  Rabdomioma fetal                                   8903/0
+    698  Rabdomioma, SOE                                    8900/0
+    699  Rabdomiossarcoma alveolar                          8920/3
+    700  Rabdomiossarcoma embrionario                       8910/3
+    701  Rabdomiossarcoma pleomorfico                       8901/3
+    702  Rabdomiossarcoma tipo misto                        8902/3
+    703  Rabdomiossarcoma, SOE                              8900/3
+    704  Reticuloendoteliose leucemica                      9941/3
+    705  Reticulossarcoma, SOE                              9593/3
+    706  Retinoblastoma diferenciado                        9511/3
+    707  Retinoblastoma indiferenciado                      9512/3
+    708  Retinoblastoma, SOE                                9510/3
+    709  Sarcoma alveolar de partes moles                   9581/3
+    710  Sarcoma cerebelar, SOE                             9480/3
+    711  Sarcoma das celulas de kupffer C22.0               9124/3
+    712  Sarcoma de cel.claras exceto Rim M                 9044/3
+    713  Sarcoma de cel.gigantes exceto osso M              8802/3
+    714  Sarcoma de celulas claras do rim                   8964/3
+    715  Sarcoma de celulas pequenas                        8803/3
+    716  Sarcoma de Ewing                                   9260/3
+    717  Sarcoma de Hodgkin                                 9662/3
+    718  Sarcoma de Kaposi                                  9140/3
+    719  Sarcoma de mastocitos                              9740/3
+    720  Sarcoma do estroma endometrial                     8930/3
+    721  Sarcoma embrionario                                8991/3
+    722  Sarcoma epitelioide                                8804/3
+    723  Sarcoma fusocelular                                8801/3
+    724  Sarcoma mieloide                                   9930/3
+    725  Sarcoma monstrocelular C71.                        9481/3
+    726  Sarcoma rabdoide                                   8963/3
+    727  Sarcoma sinovial bifasico                          9043/3
+    728  Sarcoma sinovial de celulas epitelioides           9042/3
+    729  Sarcoma sinovial fusocelular                       9041/3
+    730  Sarcoma sinovial, SOE                              9040/3
+    731  Sarcoma, SOE                                       8800/3
+    732  Sarcomatose meningea                               9539/3
+    733  Sarcomatose, SOE                                   8800/9
+    734  Seminoma anaplasico                                9062/3
+    735  Seminoma espermatocitico                           9063/3
+    736  Seminoma, SOE                                      9061/3
+    737  Sindrome mielodisplasica, SOE                      9989/1
+    738  Sinovioma benigno                                  9040/0
+    739  Siringoadenoma papilar C44.                        8406/0
+    740  Siringoma, SOE C44.                                8407/0
+    741  Tecoma luteinizado C56.9                           8601/0
+    742  Tecoma maligno C56.9                               8600/3
+    743  Tecoma, SOE C56.9                                  8600/0
+    744  Teratocarcinoma                                    9081/3
+    745  Teratoma benigno                                   9080/0
+    746  Teratoma com transformacao maligna                 9084/3
+    747  Teratoma maligno intermediario                     9083/3
+    748  Teratoma maligno nao diferenciado                  9082/3
+    749  Teratoma maligno trofoblastico C62.                9102/3
+    750  Teratoma maligno, SOE                              9080/3
+    751  Teratoma, SOE                                      9080/1
+    752  Timoma benigno C37.9                               8580/0
+    753  Timoma maligno                                     8580/3
+    754  Tricoblastoma                                      8390/1
+    755  Tricoepitelioma C44.                               8100/0
+    756  Tricofoliculoma C44.                               8101/0
+    757  Tricolemoma C44.                                   8102/0
+    758  Trombocitemia idiopatica                           9962/1
+    759  Tumor adenocarcinoide                              8245/3
+    760  Tumor adenomatoide, SOE                            9054/0
+    761  Tumor basocelular C44.                             8090/1
+    762  Tumor benigno de elulas de Leydig C62.             8650/0
+    763  Tumor benigno de partes moles                      8800/0
+    764  Tumor broncoalveolar intravascular C34.            9134/1
+    765  Tumor carcinoide argentafinico maligno             8241/3
+    766  Tumor carcinoide argentafinico, SOE                8241/1
+    767  Tumor carcinoide SOE exc apendice M                8240/3
+    768  Tumor carcinoide SOA do apdendice                  8240/1
+    769  Tumor cordoes sexuais com tubulos anulares         8623/1
+    770  Tumor de Brenner de malignidade limitrofe          9000/1
+    771  Tumor de Brenner maligno                           9000/3
+    772  Tumor de Brenner, SOE C56.9                        9000/0
+    773  Tumor de cel.gigantes de partes moles, SOE         9251/1
+    774  Tumor de celulas acinosas                          8550/1
+    775  Tumor de celulas da granulosa, SOA                 8620/1
+    776  Tumor de celulas da teca granulosa                 8621/1
+    777  Tumor de celulas de Leydig, SOE                    8650/1
+    778  Tumor de celulas de Serotoli com depos lipid       8641/0
+    779  Tumor de celulas de Sertoli, SOE                   8640/0
+    780  Tumor de celulas de Sertoli Leydig                 8631/0
+    781  Tumor de celulas do hilo C56.9                     8660/0
+    782  Tumor de celulas gigantes do osso                  9250/1
+    783  Tumor de celulas granulares, maligno               9580/3
+    784  Tumor de celulas lipidicas do ovario C56.9         8670/0
+    785  Tumor de glandulas sudoripara, SOE                 8400/1
+    786  Tumor de Klatskin                                  8162/3
+    787  Tumor de musculo liso, SOE                         8897/1
+    788  Tumor de restos supra renais                       8671/0
+    789  Tumor de seio endodermico                          9071/3
+    790  Tumor de Tritao, maligno                           9561/3
+    791  Tumor desmoplasico de pequenas celulas             8006/3
+    792  Tumor do corpo aortico C75.5                       8691/1
+    793  Tumor do corpo carotideo 75.4                      8692/1
+    794  Tumor do estroma dos cordoes sexuais               8590/1
+    795  Tumor de glomo jugular                             8690/1
+    796  Tumor epitelial benigno                            8010/0
+    797  Tumor esclerosante do estroma C56.9                8602/0
+    798  Tumor estromal malig de tec gastro intestinal      8936/3
+    799  Tumor filodes benigno C50.                         9020/0
+    800  Tumor filodes maligno                              9020/3
+    801  Tumor filodes SOE                                  9020/1
+    802  Tumor glomico                                      8711/0
+    803  Tumor hipernefroide                                8311/1
+    804  Tumor justaglomerular C64.9                        8361/1
+    805  Tumor juvenil de celulas da granulosa C56.9        8622/1
+    806  Tumor malig.de cel.gigantes de partes moles        9251/3
+    807  Tumor maligno de celulas da granulosa              8620/3
+    808  Tumor maligno de celulas de Leydig                 8650/3
+    809  Tumor maligno de celulas fusiformes                8004/3
+    810  Tumor maligno de celulas gigantes                  8003/3
+    811  Tumor maligno de celulas gigantes do osso          9250/3
+    812  Tumor maligno de celulas pequenas                  8002/3
+    813  Tumor mesonefrico                                  9110/1
+    814  Tumor misto de celulas germinativas                9085/3
+    815  Tumor misto maligno, SOE                           8940/3
+    816  Tumor misto mesodermico                            8951/3
+    817  Tumor misto mulleriano                             8950/3
+    818  Tumor mucoepidermoide                              8430/1
+    819  Tumor neuroectodermico melanotico                  9363/0
+    820  Tumor neuroectodermico periferico                  9364/3
+    821  Tumor neuroectodermico primitivo                   9473/3
+    822  Tumor neurogenico olfativo                         9520/3
+    823  Tumor odontogenico adenomatoide                    9300/0
+    824  Tumor odontogenico benigno                         9270/0
+    825  Tumor odontogenico de celulas fantasmas            9302/0
+    826  Tumor odontogenico epitelial calcificante          9340/0
+    827  Tumor odontogenico escamoso                        9312/0
+    828  Tumor odontogenico maligno                         9270/3
+    829  Tumor odontogenico, SOE                            9270/1
+    830  Tumor paciniano                                    9507/0
+    831  Tumor papilar cistico                              8452/1
+    832  Tumor trofoblastico do leito placentario           9104/1
+    833  Tumor de celulas granulares, SOE                   9580/0
+    834  Tumorlet                                           8040/1
+    835  Vipoma                                             8155/3
+    836  Xantoastrocitoma pleomorfico                       9424/3
+
+ 
+

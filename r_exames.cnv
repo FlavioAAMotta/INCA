@@ -1,0 +1,11 @@
+; Registro Hospitalar de Cancer
+; exames relevantes para o diagnostico e planejamento da terapeutica do tumor
+
+7  1
+      1  Exame Clinico e Patologia Clinica                  1     
+      2  Exames por Imagem                                  2 
+      3  Endoscopia e Cirurgia Exploradora                  3 
+      4  Anatomia Patologica                                4
+      5  Marcadores Tumorais                                5
+      6  Nao se aplica                                      8
+      7  Sem Informacao                                     9

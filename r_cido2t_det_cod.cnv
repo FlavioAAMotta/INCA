@@ -1,0 +1,345 @@
+; Registro Hospitalar de Cancer
+; Topografia CID 02 detalhada com codigo na descricao
+;
+331   5 l
+    001  C00.0 Labio superior externo                       C00.0
+    002  C00.1 Labio inferior externo                       C00.1
+    003  C00.2 Labio externo, SOE                           C00.2
+    004  C00.3 Mucosa do labio superior                     C00.3
+    005  C00.4 Mucosa do labio inferior                     C00.4
+    006  C00.5 Mucosa do labio, SOE                         C00.5
+    007  C00.6 Comissura labial                             C00.6  
+    008  C00.8 Lesao sobreposta do labio                    C00.8
+    009  C00.9 Labio SOE exclui pele do labio C44.0         C00.9
+    010  C01.9 Base de lingua                               C01.9
+    011  C02.0 Superficie dorsal da lingua SOE              C02.0
+    012  C02.1 Borda da lingua                              C02.1
+    013  C02.2 Superficie ventral da lingua SOE             C02.2
+    014  C02.3 Dois Tercos anteriores da lingua SOE         C02.3
+    015  C02.4 Amigdala lingual                             C02.4
+    016  C02.8 Lesao sobreposta da lingua                   C02.8
+    017  C02.9 Lingua SOE                                   C02.9
+    018  C03.0 Gengiva superior                             C03.0
+    019  C03.1 Gengiva inferior                             C03.1
+    020  C03.9 Gengiva SOE                                  C03.9
+    021  C04.0 Assoalho anterior da boca                    C04.0
+    022  C04.1 Assoalho lateral da boca                     C04.1
+    023  C04.8 Lesao sobreposta do assoalho da boca         C04.8
+    024  C04.9 Assoalho da boca SOE                         C04.9
+    025  C05.0 Palato duro                                  C05.0
+    026  C05.1 Palato mole SOE                              C05.1
+    027  C05.2 Uvula                                        C05.2
+    028  C05.8 Lesao sobreposta do palato                   C05.8
+    029  C05.9 Palato SOE                                   C05.9
+    030  C06.0 Mucosa da bochecha                           C06.0
+    031  C06.1 Vestibulo da boca                            C06.1
+    032  C06.2 Area retormolar                              C06.2
+    033  C06.8 Lesao sobr de out part e part N esp boca     C06.8
+    034  C06.9 Boca SOE                                     C06.9
+    035  C07.9 Glandula parotica                            C07.9
+    036  C08.0 Glandula submandibular                       C08.0
+    037  C08.1 Glaqndular sublingual                        C08.1
+    038  C08.8 Lesao sobrep de gland salivares maiores      C08.8
+    039  C08.9 Glandula salivar maior SOE                   C08.9
+    040  C09.0 Fossa amigdaliana                            C09.0
+    041  C09.1 Pilar amigdaliano                            C09.1
+    042  C09.8 Lesao sobreposta da amigdala                 C09.8
+    043  C09.9 Amigdala SOE                                 C09.9
+    044  C10.0 Valecula                                     C10.0
+    045  C10.1 Face anterior da epiglote                    C10.1
+    046  C10.2 Parede laterla da orofaringe                 C10.2
+    047  C10.3 Parede posterior da orofaringe               C10.3
+    048  C10.4 Fendal branquial como local de neoplasia     C10.4
+    049  C10.8 Lesao sobreposta da orofaringe               C10.8
+    050  C10.9 Orofaringe SOE                               C10.9
+    051  C11.0 Parede superior da nasofaringe               C11.0
+    052  C11.1 Parede posterior da nasofaringe              C11.1
+    053  C11.2 Parede lateral da nasofaringe                C11.2
+    054  C11.3 Parede anterior da nasofaringe               C11.3
+    055  C11.8 Lesao sobreposta da nasofaringe              C11.8
+    056  C11.9 Nasofaringe SOE                              C11.9
+    057  C12.9 Seio piriforme                               C12.9
+    058  C13.0 Regiao pos cricoidea                         C13.0
+    059  C13.1 Face hipofaringeia da prega ariepiglot       C13.1
+    060  C13.2 Parede posterior da hipofaringe              C13.2
+    061  C13.8 Lesao sobreposta da hipofaringe              C13.8
+    062  C13.9 Hipofaringe SOE                              C13.9
+    063  C14.0 Faringe SOE                                  C14.0
+    064  C14.1 Laringofaringe                               C14.1
+    065  C14.2 Anel de waldeyer                             C14.2
+    066  C14.8 Lesao sobrep do labio cav oral e faringe     C14.8
+    067  C15.0 Esofago cervical                             C15.0
+    068  C15.1 Esofago toracico                             C15.1
+    069  C15.2 Esofago abdominal                            C15.2
+    070  C15.3 Terco superior do esofago                    C15.3
+    071  C15.4 Terco medio do esofago                       C15.4
+    072  C15.5 Terco inferior do esofago                    C15.5
+    073  C15.8 Lesao sobreposta do esofago                  C15.8
+    074  C15.9 Esofago SOE                                  C15.9
+    075  C16.0 Cardia SOE                                   C16.0
+    076  C16.1 Fundo do estomago                            C16.1
+    077  c16.2 Corpo do estomago                            C16.2
+    078  C16.3 Antro gastrico                               C16.3
+    079  C16.4 Piloro                                       C16.4
+    080  C16.5 Pequena curvatura do estomago SOE            C16.5
+    081  C16.6 Grande curvatura do estomago SOE             C16.6
+    082  C16.8 Lesao sobreposta do estomago                 C16.8
+    083  C16.9 Estomago SOE                                 C16.9
+    084  C17.0 Duodeno                                      C17.0
+    085  C17.1 Jejuno                                       C17.1
+    086  C17.2 fleo                                         C17.2
+    087  C17.3 Diverticulo de Meckel locale neoplasia       C17.3
+    088  C17.8 Lesao sobreposta do intestino delgado        C17.8
+    089  C17.9 Intestino delgado SOE                        C17.9
+    090  C18.0 Ceco                                         C18.0
+    091  C18.1 Apendice vermiforme                          C18.1
+    092  C18.2 Colon ascendente                             C18.2
+    093  C18.3 Angulo hepatico do colon                     C18.3
+    094  C18.4 Colon transverso                             C18.4
+    095  C18.5 Angulo esplenio do colon                     C18.5
+    096  C18.6 Colon descendente                            C18.6
+    097  C18.7 Colon sigmoide                               C18.7
+    098  C18.8 Leson sobreposta do colon                    C18.8
+    099  C18.9 Colon SOE                                    C18.9
+    100  C19.9 Juncao retossigmoidiana                      C19.9
+    101  C20.9 Reto SOE                                     C20.9
+    102  C21.0 Anus SOE                                     C21.0
+    103  C21.1 canal anal                                   C21.1
+    104  C21.2 Zona cloacogenica                            C21.2
+    105  C21.8 Lesao sobrep do reto anus e canal anal       C21.8
+    106  C22.0 Figado                                       C22.0
+    107  C22.1 Vias biliares intra hepaticas                C22.1
+    108  C23.9 Vesicula biliar                              C23.9
+    109  C24.0 Vias biliares extra hepaticas                C24.0
+    110  C24.1 Ampola de Vater                              C24.1
+    111  C24.8 Lesao sobreposta das vias biliares           C24.8
+    112  C24.9 Via biliar SOE                               C24.9
+    113  C25.0 Cabeca do pancreas                           C25.0
+    114  C25.1 Corpo do pancreas                            C25.1
+    115  C25.2 Cauda do pancreas                            C25.2
+    116  C25.3 Canal pancreacio                             C25.3
+    117  C25.4 Ilhotas de Langerhans                        C25.4
+    118  C25.7 Outras partes especificadas do pancreas      C25.7
+    119  C25.8 Lesao sobreposta do pancreas                 C25.8
+    120  C25.9 Pancreas SOE                                 C25.9
+    121  C26.0 Trato intestinal SOE                         C26.0
+    122  C26.8 Lesao sobreposta do aparelho digestivo       C26.8
+    123  C26.9 Trato gastrointestinal SOE                   C26.9
+    124  C30.0 Cavidade nasal                               C30.0
+    125  C30.1 Ouvido medio                                 C30.1
+    126  C31.0 Seio maxilar                                 C31.0
+    127  C31.1 Seio etmoidal                                C31.1
+    128  C31.2 Seio frontal                                 C31.2
+    129  C31.3 Seio esfenoidal                              C31.3
+    130  C31.8 Lesao sobreposta dos seios da face           C31.8
+    131  C31.9 Seio da face SOE                             C31.9
+    132  C32.0 Glote                                        C32.0
+    133  C32.1 Supraglote                                   C31.1
+    134  C32.2 Subglote                                     C32.2
+    135  C32.3 Cartilagem laringea                          C32.3
+    136  C32.8 Lesao sobreposta da laringe                  C32.8
+    137  C32.9 Laringe SOE                                  C32.9
+    138  C33.9 Traqueia                                     C33.9
+    139  C34.0 Bronquio principal                           C34.0
+    140  C34.1 Lobo superior do pulmao                      C34.1
+    141  C34.2 Lobo medio do pulmao                         C34.2
+    142  C34.3 Lobo inferior do pulmao                      C34.3
+    143  C34.8 Lesao sobreposta do pulmao                   C34.8
+    144  C34.9 Pulmao SOE                                   C34.9
+    145  C37.9 Timo                                         C37.9
+    146  C38.0 Coracao                                      C38.0
+    147  C38.1 Mediastino anterior                          C38.1
+    148  C38.2 Mediastino posterior                         C38.2
+    149  C38.3 Mediastino SOE                               C38.3
+    150  C38.4 Pleura SOE                                   C38.4
+    151  C38.8 Lesao sobrep do coracao mediastino pleura    C38.8
+    152  C39.0 Trata respiratorio superior SOE              C39.0
+    153  C39.8 Lesao sobrep do apar resp e dos org intrat   C39.8
+    154  C39.9 Local mal definidas aparelho respiratorio    C39.9
+    155  C40.0 Omoplata ossos longos memb sup e resp art    C40.4
+    156  C40.1 Ossos curtos dos memb sup e respc articu     C40.1
+    157  C40.2 Ossos longos dos memb inf e respc articu     C40.2
+    158  C40.3 Ossos curtos dos memb inf e respec articu    C40.3
+    159  C40.8 Lesao sobr, ossos, articu e cart articu memb C40.8
+    160  C40.9 Ossos dos membros, SOE                       C40.9
+    161  C41.0 Ossos do cranio, face e respec articulacoes  C41.0
+    162  C41.1 Mandibula                                    C41.1
+    163  C41.2 Coluna vertebral                             C41.2
+    164  C41.3 Costelas, esterno, clavicula e resp articu   C41.3
+    165  C41.4 Ossos pelvicos, sacro, coccix e resp articu  C41.4
+    166  C41.8 Lesao sobrep, ossos, articu e cartilagens    C41.8
+    167  C41.9 Ossos, SOE                                   C41.9
+    168  C42.0 Sangue                                       C42.0
+    169  C42.1 Medula ossea                                 C42.1
+    170  C42.2 Baco                                         C42.2
+    171  C42.3 Sistema reticuloendotelial, SOE              C42.3
+    172  C42.4 Sistema hematopoetico, SOE                   C42.4
+    173  C44.0 Pele do labio, SOE                           C44.0
+    174  C44.1 Palpebra                                     C44.1
+    175  C44.2 Ouvido externo                               C44.2
+    176  C44.3 Pele outras part e part nao especif face     C44.3
+    177  C44.4 Pele do couro cabeludo e do pescoco          C44.4
+    178  C44.5 Pele do tronco                               C44.5
+    179  C44.6 Pele do ombro e membro superiores            C44.6
+    180  C44.7 Pele do quadril e membros inferiores         C44.7
+    181  C44.8 Lesao sobreposta da pele                     C44.8
+    182  C44.9 Pele, SOE                                    C44.9
+    183  C47.0 Nervos perif e SNA da cabeca, face, pescoco  C47.0
+    184  C47.1 Nervos perif e SNA do membro sup e ombro     C47.1
+    185  C47.2 Nervos perif e SNA do membro inf e quadril   C47.2
+    186  C47.3 Nervos perif e SNA do torax                  C47.3
+    187  C47.4 Nervos perif e SBA do abdome                 C47.4
+    188  C47.5 Nervos perif e SNA da pelve                  C47.5
+    189  C47.6 Nervos perif e SNA do tronco                 C47.6
+    190  C47.8 Lesao sobrep dos nervos perifericos e SNA    C47.8
+    191  C47.9 Sistema nervoso autonomo, SOE                C47.9
+    192  C48.0 Retroperitonio                               C48.0
+    193  C48.1 Partes especificadas do peritonio            C48.1
+    194  C48.2 Peritonio, SOE                               C48.2
+    195  C48.8 Lesao sobrep do retroperitonio e peritonio   C48.8
+    196  C49.0 Tec conj, subc e out tec moles,cab,face,pesc C49.0
+    197  C49.1 Tec conj, sub e out tec moles sup ombr       C49.1
+    198  C49.2 Tec conj,subc e out tec mol memb inf e quad  C49.2
+    199  C49.3 Tec conj,subc e out tec moles do torax       C49.3
+    200  C49.4 Tec conj,subc e out tec moles do abdome      C49.4
+    201  C49.5 Tec conj,subc e out tec moles da pelve       C49.5
+    202  C49.6 Tec conj,subc e out tec moles do tronco      C49.6
+    203  C49.8 Lesao sobre tec conec,subc e out tec moles   C49.8
+    204  C49.9 Tec conj,subc e out tec moles, SOE           C49.9
+    205  C50.0 Mamilo                                       C50.5
+    206  C50.1 Porcao central da mama                       C50.1
+    207  C50.2 Quadrante superior interno da mama           C50.2
+    208  C50.3 Quadrante inferior da mama                   C50.3
+    209  C50.4 Quadrante superior externo da mama           C50.4
+    210  C50.5 Quadrante inferior externo da mama           C50.5
+    211  C50.6 Prolongamento axilar da mama                 C50.6
+    212  C50.8 Lesao sobreposta da mama                     C50.8
+    213  C50.9 Mama, SOE                                    C50.9
+    214  C51.0 Grandes labios                               C51.0
+    215  C51.1 Pequenos labios                              C51.1
+    216  C51.2 Clitoris                                     C51.2
+    217  C51.8 Lesao sobreposta da vulva                    C51.8
+    218  C51.9 Vulva, SOE                                   C51.9
+    219  C52.9 Vagina, SOE                                  C52.9
+    220  C53.0 Endocervix                                   C53.0
+    221  C53.1 Exocervix                                    C53.1
+    222  C53.8 Lesao sobreposta do colo do utero            C53.8
+    223  C53.9 Colo do utero                                C53.9
+    224  C54.0 Istmo do utero                               C54.0
+    225  C54.1 Endometrio                                   C54.1
+    226  C54.2 Miometrio                                    C54.2
+    227  C54.3 Fundo do utero                               C54.3
+    228  C54.8 Lesao sobreposta do corpo do utero           C54.8
+    229  C54.9 Corpo do utero                               C54.9
+    230  C55.9 Utero, SOE                                   C55.9
+    231  C56.9 Ovario                                       C56.9
+    232  C57.0 Trompa de Falopio                            C57.0
+    233  C57.1 Ligamento largo                              C57.1
+    234  C57.2 Ligamento redondo                            C57.2
+    235  C57.3 Parametrio                                   C57.3
+    236  C57.4 Anexos uterinos                              C57.4
+    237  C57.7 Out part especifidos org genitais femininos  C57.7
+    238  c57.8 Lesao sobrep dos orgaos genitais femininos   C57.8
+    239  C57.9 Trato genital feminino, SOE                  C57.9
+    240  C58.9 Placenta                                     C58.9
+    241  C60.0 Prepucio                                     C60.0
+    242  C60.1 Glande                                       C60.1
+    243  C60.2 corpo do penis                               C60.2
+    244  C60.8 Lesao sobreposta do penis                    C60.8
+    245  C60.9 Penis, SOE                                   C60.9
+    246  C61.9 Prostata                                     C61.9
+    247  C62.0 Testiculo criptorquidico local de neoplasia  C62.0
+    248  C62.1 Testiculo topico                             C62.1
+    249  C62.9 Testiculo, SOE                               C62.9
+    250  C63.0 Epididimo                                    C63.0
+    251  C63.1 Cordao espermatico                           C63.1
+    252  C63.2 Escroto, SOE                                 C63.2
+    253  C63.7 Outros org genitais masculinos especif       C63.7
+    254  C63.8 Lesao sobrep orgaos genitais masculinos      C63.8
+    255  C63.9 Orgao genital masculino, SOE                 C63.9
+    256  C64.9 Rim, SOE                                     C64.9
+    257  C65.9 Pelve renal                                  C65.9
+    258  C66.9 Ureter                                       C66.9
+    259  C67.0 Trigono da bexiga                            C67.0
+    260  C67.1 Culpula da bexiga                            C67.1
+    261  C67.2 Parede lateral da bexiga                     C67.2
+    262  C67.3 Parede anterior da bexiga                    C67.3
+    263  C67.4 Parede posterior da bexiga                   C67.4
+    264  C67.5 Colo da bexiga                               C67.5
+    265  C67.6 Orificio ureteral                            C67.6
+    266  C67.7 Uraco                                        C67.7
+    267  C67.8 Lesao sobreposta da bexiga                   C67.8
+    268  C67.9 Bexiga, SOE                                  C67.9
+    269  C68.0 Ureta                                        C68.0
+    270  C68.1 Glandula parauretral                         C68.1
+    271  C68.8 Lesao sobreposta dos orgaos urinarios        C68.8
+    272  C68.9 Aparelho urinario, SOE                       C68.9
+    273  C69.0 Conjuntiva                                   C69.0
+    274  C69.1 Cornea, SOE                                  C69.1
+    275  C69.2 Retina                                       C69.2
+    276  C69.3 Coroide                                      C69.3
+    277  C69.4 corpo ciliar                                 C69.4
+    278  C69.5 Glandula lacrimal                            C69.5
+    279  C69.6 Orbital, SOE                                 C69.6
+    280  C69.8 Lesao sobreposta do olho e anexos            C69.8
+    281  C69.9 Olho, SOE                                    C69.9
+    282  C70.0 Meninges cerebrais                           C70.0
+    283  C70.1 Meninges espinhais                           C70.1
+    284  C70.9 Meninges, SOE                                C70.9
+    285  C71.0 Cerebro                                      C71.0
+    286  C71.1 Lobo frontal                                 C71.1
+    287  C71.2 Lobo temporal                                C71.2
+    288  C71.3 Lobo parietal                                C71.3
+    289  C71.4 Lobo occipital                               C71.4
+    290  C71.5 Ventriculo cerebral, SOE                     C71.5
+    291  C71.6 Cerebro, SOE                                 C71.6
+    292  C71.7 Tronco cerebral                              C71.7
+    293  C71.8 Lesao sobreposta do encefalo                 C71.8
+    294  C71.9 Encefalo, SOE                                C71.9
+    295  C72.0 Medula espinhal                              C72.0
+    296  C72.1 Cauda equina                                 C72.1
+    297  C72.2 Nervo olfativo                               C72.2
+    298  C72.3 Nervo optico                                 C72.3
+    299  C72.4 Nervo acustico                               C72.4
+    300  C72.5 Nervo craniano, SOE                          C72.5
+    301  C72.8 Lesao sobrep do encefalo e do SNC            C72.8
+    302  C72.9 Sistema nervoso, SOE                         C72.9
+    303  C73.9 Glandula tiroide                             C73.9
+    304  C74.0 Cortex da glandula suprarrenal               C74.0
+    305  C74.1 Medula da glandula suprarrenal               C74.1
+    306  C74.9 Glandula suprarrenal, SOE                    C74.9
+    307  C75.0 Glandula paratiroide                         C75.0
+    308  C75.1 Glandula hipofise                            C75.1
+    309  C75.2 Ducto craniofaringeo                         C75.2
+    310  C75.3 Glandula pineal                              C75.3
+    311  C75.4 Corpo carotideo                              C75.4
+    312  C75.5 Corpo aortico e outros paraganglios          C75.5
+    313  C75.8 Lesoes sobrep das gland endoc e estrut       C75.8
+    314  C75.9 Glandula endocrina, SOE                      C75.9
+    315  C76.0 Cabeca, face e pescoco, SOE                  C76.0
+    316  C76.1 Torax, SOE                                   C76.1
+    317  C76.2 abdome, SOE                                  C76.2
+    318  C76.3 Pelve, SOE                                   C76.3
+    319  C76.4 Membro superior, SOE                         C76.4
+    320  C76.5 Membro inferior, SOE                         C76.5
+    321  C76.7 Outras localizacoes mal definifas            C76.7
+    322  C76.8 Lesao sobrep de localizacoes mal definidas   C76.8
+    323  C77.0 Linfonodos da cabeca, face e pescoso         C77.0
+    324  C77.1 Linfonodos intratoracicos                    C77.1
+    325  C77.2 Linfonodos intra-abdominais                  C77.2
+    326  C77.3 Linfonodos da axila e do membro superior     C77.3
+    327  C77.4 Linfonodos da reg inguinal e do memb inf     C77.4
+    328  C77.5 Linfonodos pelvicos                          C77.5
+    329  C77.8 Linfonodos de multiplas regioes              C77.8
+    330  C77.9 linfonodos, SOE                              C77.9
+    331  C80.9 Localizacao primaria desconhecida            C80.9
+
+
+	
+
+        
+ 
+   
+    
+
+   

@@ -1,0 +1,9 @@
+; Registro Hospitalar de Cancer
+; origem do encaminhamento
+
+5  1
+      1  SUS                                                1
+      2  Nao SUS                                            2
+      3  Veio por conta propria                             3
+      4  Nao se aplica                                      8
+      5  Sem informacao                                     9

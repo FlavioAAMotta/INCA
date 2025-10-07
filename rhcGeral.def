@@ -1,0 +1,146 @@
+; Informa&ccedil;&otilde;es do Registro Hospitalar de C&acirc;ncer - Tabulador Hospitalar<br>Todos os Estados 
+Arhchos/todosho_sp/rhc??.dbf
+;
+INumero de casos,           #
+;
+
+TTipo do caso, TPCASO, 1, rhchos/todosho_sp/r_tipocaso.cnv
+STipo do caso, TPCASO, 1, rhchos/todosho_sp/r_tipocaso.cnv
+
+TAno de 1 consulta, DTPRICON, 1, rhchos/todosho_sp/r_ano.cnv
+SAno de 1 consulta, DTPRICON, 1, rhchos/todosho_sp/r_ano.cnv 
+
+LUnidade hospitalar, CNES, 1, rhchos/todosho_sp/r_cnes.cnv
+SUnidade hospitalar, CNES, 1, rhchos/todosho_sp/r_cnes.cnv
+
+LMunicipio da unid hospitalar, MUUH, 1, rhchos/todosho_sp/r_municip.cnv
+SMunicipio da unid hospitalar, MUUH, 1, rhchos/todosho_sp/r_municip.cnv
+
+TUF da unidade hospitalar, UFUH, 1, rhchos/todosho_sp/r_uf_UH.cnv
+SUF da unidade hospitalar, UFUH, 1, rhchos/todosho_sp/r_uf_UH.cnv
+
+TSexo, SEXO,  1, rhchos/todosho_sp/r_sexo.cnv
+SSexo, SEXO, 1, rhchos/todosho_sp/r_sexo.cnv
+
+TFaixa etaria, IDADE, 1, rhchos/todosho_sp/r_fxeta5.cnv
+SFaixa etaria, IDADE, 1, rhchos/todosho_sp/r_fxeta5.cnv
+
+TFx etaria infantil detalhada, IDADE, 1, rhchos/todosho_sp/r_fxetainf1.cnv
+SFx etaria infantil detalhada, IDADE, 1, rhchos/todosho_sp/r_fxetainf1.cnv
+
+TFx etaria infantil, IDADE, 1, rhchos/todosho_sp/r_fxetainf2.cnv
+SFx etaria infantil, IDADE, 1, rhchos/todosho_sp/r_fxetainf2.cnv
+
+TLocal nascimento, LOCALNAS, 1, rhchos/todosho_sp/r_uf.cnv
+SLocal nascimento, LOCALNAS, 1, rhchos/todosho_sp/r_uf.cnv
+
+TUF de procedencia, ESTADRES, 1, rhchos/todosho_sp/r_uf.cnv
+SUF de procedencia, ESTADRES, 1, rhchos/todosho_sp/r_uf.cnv
+
+LProcedencia,      PROCEDEN,     1,       rhchos/todosho_sp/r_municip.cnv
+SProcedencia,      PROCEDEN,     1,       rhchos/todosho_sp/r_municip.cnv
+
+TRaca/cor, RACACOR, 1, rhchos/todosho_sp/r_racacor.cnv
+SRaca/cor, RACACOR, 1, rhchos/todosho_sp/r_racacor.cnv
+
+TGrau de instrucao, INSTRUC, 1, rhchos/todosho_sp/r_ginstruc.cnv
+SGrau de instrucao, INSTRUC, 1, rhchos/todosho_sp/r_ginstruc.cnv
+
+;LOcupacao,              OCUPACAO,     1,       rhchos/todosho_sp/r_ocupacao.cnv
+;SOcupacao,              OCUPACAO,     1,       rhchos/todosho_sp/r_ocupacao.cnv
+
+LOcupacao, OCUPACAO, 1, rhchos/todosho_sp/r_ocupacao.cnv
+SOcupacao, OCUPACAO, 1, rhchos/todosho_sp/r_ocupacao.cnv
+
+TEstado conjugal, ESTCONJ, 1, rhchos/todosho_sp/r_estadoconj.cnv
+SEstado conjugal, ESTCONJ, 1, rhchos/todosho_sp/r_estadoconj.cnv
+
+TAlcoolismo, ALCOOLIS, 1, rhchos/todosho_sp/r_alcoolismo.cnv
+SAlcoolismo, ALCOOLIS, 1, rhchos/todosho_sp/r_alcoolismo.cnv
+
+TTabagismo, TABAGISM, 1, rhchos/todosho_sp/r_tabagismo.cnv
+STabagismo, TABAGISM, 1, rhchos/todosho_sp/r_tabagismo.cnv
+
+THistoria familiar de cancer, HISTFAMC, 1, rhchos/todosho_sp/r_histfamc.cnv
+SHistoria familiar de cancer, 1, rhchos/todosho_sp/r_histfamc.cnv
+
+TClinica atendimento, CLIATEN, 1, rhchos/todosho_sp/r_clinicas.cnv
+SClinica atendimento, CLIATEN, 1, rhchos/todosho_sp/r_clinicas.cnv
+
+TClinica tratamento, CLITRAT, 1, rhchos/todosho_sp/r_clinicas.cnv
+SClinica tratamento, CLITRAT, 1, rhchos/todosho_sp/r_clinicas.cnv
+
+TAno diagnostico, ANOPRIDI, 1, rhchos/todosho_sp/r_ano.cnv
+SAno diagnostico, ANOPRIDI, 1, rhchos/todosho_sp/r_ano.cnv
+
+TAno 1 tratamento, DTINITRT, 1, rhchos/todosho_sp/r_ano.cnv
+SAno 1 tratamento, DTINITRT, 1, rhchos/todosho_sp/r_ano.cnv
+
+TAno triagem, ANTRI, 1, rhchos/todosho_sp/r_ano.cnv
+SAno triagem, ANTRI, 1, rhchos/todosho_sp/r_ano.cnv
+
+TDiagnostico e tratam anterior, DIAGANT, 1, rhchos/todosho_sp/r_diagant.cnv
+SDiagnostico e tratam anterior, 1, rhchos/todosho_sp/r_diagant.cnv
+
+TOrigem do encaminhamento, ORIENC, 1, rhchos/todosho_sp/r_origem.cnv
+SOrigem do encaminhamento, ORIENC, 1, rhchos/todosho_sp/r_origem.cnv
+
+LLocalizacao primaria, LOCTUDET, 1, rhchos/todosho_sp/r_cido2t_g_cod.cnv 
+SLocalizacao primaria, LOCTUDET, 1, rhchos/todosho_sp/r_cido2t_g_cod.cnv
+
+LLocalizacao primaria detalhada, LOCTUPRI, 1, rhchos/todosho_sp/r_cido2t_det_cod.cnv
+SLocalizacao primaria detalhada, LOCTUPRI, 1, rhchos/todosho_sp/r_cido2t_det_cod.cnv
+
+LLocalizacao primaria grupo, LOCTUPRI, 1, rhchos/todosho_sp/r_cido2t_agrupado.cnv
+SLocalizacao primaria grupo, LOCTUPRI, 1, rhchos/todosho_sp/r_cido2t_agrupado.cnv
+
+LLocalizacao primaria provavel, LOCTUPRO, 1, rhchos/todosho_sp/r_cido2t_g_cod.cnv
+SLocalizacao primaria provavel, LOCTUPRO, 1, rhchos/todosho_sp/r_cido2t_g_cod.cnv
+
+LTipo histologico, TIPOHIST, 1, rhchos/todosho_sp/r_cido2m.cnv
+STipo histologico, TIPOHIST, 1, rhchos/todosho_sp/r_cido2m.cnv
+
+TBase diagnostico, BASMAIMP, 1, rhchos/todosho_sp/r_basemaimp_sp.cnv 
+SBase diagnostico, BASMAIMP, 1, rhchos/todosho_sp/r_basemaimp_sp.cnv
+       
+TExames para diagnostico, EXDIAG, 1, rhchos/todosho_sp/r_exames.cnv
+SExames para diagnostico, EXDIAG, 1, rhchos/todosho_sp/r_exames.cnv
+
+TTumor primario multiplo, MAISUMTU, 1, rhchos/todosho_sp/r_maisumtumor.cnv
+STumor primario multiplo, MAISUMTU, 1, rhchos/todosho_sp/r_maisumtumor.cnv
+
+TLateralidade, LATERALI, 1, rhchos/todosho_sp/r_lateralid.cnv
+SLateralidade, LATERALI, 1, rhchos/todosho_sp/r_lateralid.cnv
+
+;TEstadiamento TNM, TNM, 1, rhchos/todosho_sp/r_estadiam.cnv
+;SEstadiamento TNM, TNM, 1, rhchos/todosho_sp/r_estadiam.cnv
+
+TEstadiamento TNM, ESTADIAM, 1, rhchos/todosho_sp/r_estadiam.cnv
+SEstadiamento TNM, ESTADIAM, 1, rhchos/todosho_sp/r_estadiam.cnv
+
+TEstadiamento grupo, ESTADIAG, 1, rhchos/todosho_sp/r_estadiam_g.cnv
+SEstadiamento grupo, ESTADIAG, 1, rhchos/todosho_sp/r_estadiam_g.cnv
+
+L1 Tratamen recebido, PRITRATH, 1, rhchos/todosho_sp/r_pritrathosp.cnv
+S1 Tratamen recebido, PRITRATH, 1, rhchos/todosho_sp/r_pritrathosp.cnv
+
+TRazao para nao tratar, RZNTR, 1, rhchos/todosho_sp/r_razaonaotrat.cnv
+SRazao para nao tratar, RZNTR, 1, rhchos/todosho_sp/r_razaonaotrat.cnv
+
+TEstado doenca final 1 tratam, ESTDFIMT, 1, rhchos/todosho_sp/r_estdoenfimtrat.cnv
+SEstado doenca final 1 tratam, ESTDFIMT, 1, rhchos/todosho_sp/r_estdoenfimtrat.cnv
+
+;Substitui zeros por hiens
+OZEROHIFEN
+
+;F<center><input type="button" onclick="javascript:window.close();" value="Retornar" /><center />
+
+F<HR>
+F<B><FONT SIZE=1 FACE="Verdana"><p align=center>Fonte: Sistema de Registro Hospitalar de C&acirc;ncer(SisRHC)</p>
+F<p align=center>
+F* Os dados coletados pelos Registros Hospitalares de C&acirc;ncer n&atilde;o devem ser utilizados para c&aacute;lculo de incid&ecirc;ncia,<br>
+Fuma vez que retratam apenas o perfil de atendimento de uma determinada <br>
+Finstitui&ccedil;&atilde;o (ou de um grupo destas.)</p></br>
+F<br><br><center><a href="javascript:history.go(-1);">Clique aqui para voltar</a></center>
+F</FONT>
+F</Center>

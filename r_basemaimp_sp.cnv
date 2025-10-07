@@ -1,0 +1,8 @@
+; Registro Hospitalar de Cancer
+; BASE MAIS IMPORTANTE PARA DIAGNOSTICO - FOSP
+
+4 1
+      1  EXAME CLINICO                                      1
+      2  RECURSOS AUXILIARES MICROSCOPICOS                  2
+      3  CONFIRMACAO MICROSCOPICA                           3
+      4  SEM INFORMACAO                                     0,9

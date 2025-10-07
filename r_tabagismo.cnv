@@ -1,0 +1,10 @@
+; Registro Hospitalar de Cancer
+; tabagismo
+
+6  1
+      1  Nunca                                              1     
+      2  Ex-consumidor                                      2 
+      3  Sim                                                3
+      4  Nao avaliado                                       4
+      5  Nao se aplica                                      8
+      6  Sem Informacao                                     9

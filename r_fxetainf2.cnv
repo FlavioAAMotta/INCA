@@ -1,0 +1,14 @@
+; Registro Hospitalar de Cancer
+; Faixa etaria infantil com intervalos diferentes
+
+9  3  L
+      1  00-02                                              000-002
+      2  03-07                                              003-007
+      3  08-14                                              008-014
+      4  15                                                 015
+      5  16                                                 016
+      6  17                                                 017
+      7  18                                                 018
+      8  19                                                 019
+      9  Sem Informacao                                        ,
+;     8  19-30                                              019-030

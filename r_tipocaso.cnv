@@ -1,0 +1,8 @@
+; Registro Hospitalar de Cancer
+; Tipo do caso
+
+2  1
+      1  Analitico                                          1
+      2  Nao Analitico                                      2
+
+

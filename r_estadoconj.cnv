@@ -1,0 +1,10 @@
+; Registro Hospitalar de Cancer
+; estado conjugal
+
+6  1
+      1  SOLTEIRO                                           1     
+      2  CASADO                                             2 
+      3  VIUVO                                              3 
+      4  SEPARADO JUDICIALMENTE                             4
+      5  UNIAO CONSENSUAL                                   5
+      6  SEM INFORMACAO                                     9
