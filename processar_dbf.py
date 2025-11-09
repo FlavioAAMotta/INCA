@@ -5,74 +5,75 @@ import re
 import glob
 
 def ler_arquivo_cnv(caminho_arquivo):
-    """
-    Lê um arquivo .cnv e retorna um dicionário com o mapeamento código -> descrição
-    """
     mapeamento = {}
-    
     try:
-        with open(caminho_arquivo, 'r', encoding='latin1') as arquivo:
-            linhas = arquivo.readlines()
-            
-        # Pular as primeiras linhas de cabeçalho e encontrar os dados
-        for i, linha in enumerate(linhas):
-            linha_original = linha
-            linha = linha.strip()
-            
-            # Procurar por linhas que começam com espaços seguidos de número
-            if re.match(r'^\s+\d+\s+', linha_original):
-                # Usar a linha original para preservar espaçamento
-                # Formato: "      1  Descrição                                          1"
-                match = re.match(r'^\s+(\d+)\s+(.+?)\s+(\d+)\s*$', linha_original)
-                if match:
-                    seq_num = int(match.group(1))
-                    descricao = match.group(2).strip()
-                    codigo = int(match.group(3))
+        with open(caminho_arquivo, 'r', encoding='latin1') as f:
+            linhas = f.readlines()
+
+        # 1) Tenta "seq  descricao  codigo"
+        achou_algo = False
+        for linha in linhas:
+            raw = linha.rstrip("\n")
+            s = raw.strip()
+            if not s or s.startswith(";"):
+                continue
+            m = re.match(r'^\s*(\d+)\s+(.+?)\s+([A-Za-z0-9\-]+)\s*$', raw)
+            if m:
+                descricao = m.group(2).strip()
+                codigo = re.sub(r'[^A-Za-z0-9]', '', m.group(3))
+                if codigo:
                     mapeamento[codigo] = descricao
-                else:
-                    # Tentar formato alternativo com split por espaços múltiplos
-                    partes = re.split(r'\s{2,}', linha.strip())
-                    if len(partes) >= 3:
-                        try:
-                            seq_num = int(partes[0])
-                            descricao = partes[1]
-                            codigo = int(partes[2])
-                            mapeamento[codigo] = descricao
-                        except ValueError:
-                            continue
-                    
+                    achou_algo = True
+
+        if achou_algo:
+            return mapeamento
+
+        # 2) Tenta “multi-código” (ex.: ESTADIAM)
+        for linha in linhas:
+            s = linha.strip()
+            if not s or s.startswith(";"):
+                continue
+
+            partes = re.split(r'\s{2,}', s)
+            if len(partes) < 2:
+                continue
+            descricao = partes[1].strip()
+
+            if len(partes) >= 3:
+                codigos = partes[2].split(",")
+            else:
+                continue
+
+            for c in codigos:
+                c = re.sub(r'[^A-Za-z0-9]', '', c.strip())
+                if c:
+                    mapeamento[c] = descricao
+
     except Exception as e:
         print(f"Erro ao ler arquivo {caminho_arquivo}: {e}")
-        
+
     return mapeamento
 
 
 def extrair_mapeamentos_def(caminho_def):
-    """
-    Extrai os mapeamentos de colunas para arquivos .cnv do arquivo .def
-    """
     mapeamentos = {}
-    
     try:
         with open(caminho_def, 'r', encoding='latin1') as arquivo:
             linhas = arquivo.readlines()
-            
+
         for linha in linhas:
             linha = linha.strip()
-            # Procurar por linhas que definem mapeamentos (começam com T ou S)
             if linha.startswith(('T', 'S')) and '.cnv' in linha:
                 partes = linha.split(',')
                 if len(partes) >= 4:
                     nome_coluna = partes[1].strip()
                     arquivo_cnv = partes[3].strip()
-                    # Extrair apenas o nome do arquivo .cnv
                     nome_arquivo = os.path.basename(arquivo_cnv)
                     if nome_coluna not in mapeamentos:
                         mapeamentos[nome_coluna] = nome_arquivo
-                        
     except Exception as e:
         print(f"Erro ao ler arquivo .def: {e}")
-        
+
     return mapeamentos
 
 
@@ -263,7 +264,7 @@ def main():
     print("="*60)
     
     # Buscar todos os arquivos .dbf na pasta atual
-    arquivos_dbf = glob.glob('*.dbf')
+    arquivos_dbf = glob.glob('raw_data/dbfs/*.dbf')
     
     if not arquivos_dbf:
         print("ERRO: Nenhum arquivo .dbf encontrado na pasta atual!")
